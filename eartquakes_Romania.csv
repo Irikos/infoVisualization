@@ -1,0 +1,666 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-03-08T13:43:13.070Z,45.6583,26.4629,148.97,4.1,mb,,41,0.259,0.76,us,us100087pk,2017-04-20T10:53:57.224Z,"19km N of Gura Teghii, Romania",earthquake,3.2,3.9,0.127,17,reviewed,us,us
+2017-02-08T15:08:20.550Z,45.5187,26.2594,127.01,4.7,mb,,19,0.222,1.1,us,us20008ii5,2017-03-01T06:16:37.044Z,"11km NNW of Nehoiu, Romania",earthquake,6.6,5.4,0.045,152,reviewed,us,us
+2017-02-08T09:52:06.090Z,45.736,26.6616,129.27,4.4,mb,,48,0.559,1.23,us,us20008ifq,2017-03-05T08:24:32.472Z,"4km WNW of Nereju, Romania",earthquake,6.4,5.4,0.148,13,reviewed,us,us
+2016-12-27T23:20:56.100Z,45.7144,26.5283,97,5.6,mww,,14,0.466,0.8,us,us10007n3r,2017-03-23T22:52:05.040Z,"14km W of Nereju, Romania",earthquake,4.3,1.8,,,reviewed,us,us
+2016-10-31T11:59:49.800Z,45.87,26.78,90,4.1,mb,,,,1.43,us,us1000738i,2017-01-24T02:02:12.040Z,"2km SW of Matacina, Romania",earthquake,6.7,6.4,0.157,11,reviewed,buc,us
+2016-09-23T23:11:20.810Z,45.7275,26.6097,92,5.6,mww,,10,0.307,0.96,us,us10006s5c,2017-04-08T05:49:51.394Z,"8km W of Nereju, Romania",earthquake,4,1.8,,,reviewed,us,us
+2016-06-09T02:05:40.060Z,44.4626,21.6239,2,4.2,mwr,,73,0.33,0.68,us,us200062z2,2016-08-18T00:36:35.040Z,"6km S of Turija, Serbia",earthquake,3,4.2,0.062,25,reviewed,buc,us
+2016-03-18T21:58:18.500Z,45.8877,21.1683,4.5,2.9,ml,,,,1.18,us,us20005bah,2016-06-09T21:41:49.040Z,"3km N of Sanandrei, Romania",earthquake,4.2,8,,,reviewed,buc,buc
+2016-03-01T11:06:12.870Z,45.825,26.987,66.5,4.3,mb,,,,0.63,us,us10004tss,2016-05-06T23:34:21.040Z,"6km W of Bolotesti, Romania",earthquake,3.8,5,0.265,4,reviewed,buc,us
+2015-12-29T18:56:29.230Z,45.3705,24.1642,27.16,4.3,mb,,30,1.259,1.09,us,us10004a9m,2016-03-18T01:13:06.040Z,"7km WNW of Brezoi, Romania",earthquake,4.9,6.6,0.111,23,reviewed,us,us
+2015-12-16T20:27:33.050Z,45.652,26.5742,138.7,4.1,ml,,56,0.21,0.38,us,us20004hmi,2016-03-05T01:42:09.040Z,"13km WSW of Nereju, Romania",earthquake,4.7,5.8,0.3,2,reviewed,buc,buc
+2015-11-29T21:28:37.230Z,45.8103,26.7208,121.4,3.9,mb,,,,0.81,us,us100042zq,2016-02-25T22:33:01.040Z,"2km SSW of Nistoresti, Romania",earthquake,5.3,5.3,0.194,7,reviewed,buc,us
+2015-10-07T09:25:02.050Z,45.6574,26.8586,129.699,4.4,mb,,47,0.15,0.81,us,us10003leh,2016-01-04T22:29:31.040Z,"9km W of Poiana Cristei, Romania",earthquake,3.8,3.4,0.179,9,reviewed,buc,us
+2015-09-29T15:53:49.030Z,45.7228,26.7268,121,4.1,ml,,39,0.14,0.57,us,us10003iw9,2015-12-28T23:08:49.040Z,"1km NE of Nereju, Romania",earthquake,3.8,3.7,0.35,5,reviewed,buc,buc
+2015-07-19T11:30:47.060Z,48.0951,23.6567,4.6,4,mb,,177,0.44,1.22,us,us20002yi4,2015-10-14T21:05:44.040Z,"8km WSW of Neresnytsya, Ukraine",earthquake,4.5,6.1,0.299,3,reviewed,buc,us
+2015-07-13T23:35:10.010Z,45.6612,26.4432,147.9,4,mb,,56,0.22,0.81,us,us20002xbq,2015-10-09T20:19:16.040Z,"18km SE of Comandau, Romania",earthquake,4.4,3.9,0.164,10,reviewed,buc,us
+2015-07-05T14:26:48.040Z,45.6957,26.6526,132.9,4.4,mb,,29,0.16,0.76,us,us10002nj3,2015-09-30T00:20:57.040Z,"5km WSW of Nereju, Romania",earthquake,4.1,4.2,0.536,1,reviewed,buc,us
+2015-06-29T22:20:56.000Z,46.0347,27.1698,21.4,4.3,mb,,57,0.17,0.89,us,us10002mfv,2015-09-02T22:37:24.040Z,"4km NNW of Pufesti, Romania",earthquake,2.4,4.3,0.147,13,reviewed,buc,us
+2015-03-29T00:44:58.080Z,45.6231,26.4579,141.6,4.5,mb,,38,0.19,0.88,us,us10001rp6,2015-06-12T01:53:27.040Z,"15km NNE of Gura Teghii, Romania",earthquake,3.1,3.3,0.065,69,reviewed,buc,us
+2015-03-16T15:49:49.050Z,45.6587,26.4354,115.7,4.4,mb,,56,0.22,0.85,us,us10001msg,2015-06-04T00:46:22.040Z,"17km SE of Comandau, Romania",earthquake,3.4,3.3,0.052,108,reviewed,buc,us
+2015-02-21T19:10:12.080Z,45.7301,26.6366,143.7,4.2,ml,,25,0.12,0.71,us,usc000ts68,2015-05-12T20:29:38.040Z,"6km WNW of Nereju, Romania",earthquake,5.2,5.3,0.3,4,reviewed,buc,buc
+2015-01-28T22:51:59.090Z,45.6413,26.4919,127.5,4.1,mb,,20,0.18,0.79,us,usc000tjxu,2015-04-24T16:55:46.040Z,"18km NNE of Gura Teghii, Romania",earthquake,3.9,4.4,0.26,4,reviewed,buc,us
+2015-01-24T07:55:47.060Z,45.6965,26.5708,84.5,4.5,mb,,48,0.2,0.92,us,usc000tisi,2015-04-24T16:55:18.040Z,"11km W of Nereju, Romania",earthquake,3.7,4.7,0.095,36,reviewed,buc,us
+2015-01-19T23:53:07.090Z,45.8756,27.1509,40,4,mb,,39,0.13,0.96,us,usc000thcc,2015-04-20T16:05:36.040Z,"4km NE of Tifesti, Romania",earthquake,2.9,5.6,0.144,17,reviewed,buc,us
+2015-01-12T06:08:31.020Z,45.533,27.0418,17.8,4.2,mb,,59,0.16,1.14,us,usc000terv,2015-04-10T18:56:30.040Z,"1km SSW of Bordesti, Romania",earthquake,1.7,2.9,0.159,15,reviewed,buc,us
+2015-01-04T19:40:38.090Z,45.5605,26.4225,119.3,4.3,mb,,69,0.2,0.96,us,usc000tbn6,2015-03-27T07:01:46.040Z,"8km N of Gura Teghii, Romania",earthquake,2.6,3.6,0.129,17,reviewed,buc,us
+2015-01-03T03:39:35.000Z,45.7819,26.6671,75.8,4.2,mb,,26,0.07,0.45,us,usc000tbdi,2015-03-27T07:01:21.040Z,"3km W of Paltin, Romania",earthquake,3.3,5.1,0.371,5,reviewed,buc,us
+2014-12-12T08:25:38.080Z,45.7388,26.7849,120.1,4,ml,,56,0.13,0.69,us,usc000t5wh,2015-03-04T21:54:59.040Z,"3km WSW of Andreiasu de Jos, Romania",earthquake,4.2,5.7,0.3,1,reviewed,buc,buc
+2014-12-07T21:04:05.010Z,45.9073,27.1727,38.3,4.6,mb,,66,0.17,0.89,us,usc000t4ga,2015-02-28T02:16:13.040Z,"5km WNW of Marasheshty, Romania",earthquake,2.3,4.1,0.126,22,reviewed,buc,us
+2014-11-22T19:14:16.370Z,45.8977,27.1505,32,5.6,mww,,13,0.149,0.86,us,usb000sz38,2016-11-10T21:45:26.565Z,"5km E of Panciu, Romania",earthquake,2.9,1.8,,,reviewed,us,us
+2014-11-12T02:20:51.510Z,43.9412,21.1096,10,3,ml,,67,0.821,0.74,us,usc000sws8,2015-02-12T01:42:35.040Z,"13km WSW of Jagodina, Serbia",earthquake,5.8,2,,,reviewed,us,buc
+2014-11-03T13:09:59.050Z,45.5715,26.4019,118.7,4.3,mb,,71,0.16,1,us,usc000stnd,2015-01-20T09:03:14.040Z,"9km N of Gura Teghii, Romania",earthquake,4.2,4.3,0.113,26,reviewed,buc,us
+2014-10-31T23:00:04.000Z,45.1647,22.2912,4.1,4.1,mwr,,74,0.41,1,us,usc000st9z,2015-01-30T23:29:41.210Z,"1km NNE of Teregova, Romania",earthquake,3.1,1.7,0.053,34,reviewed,buc,us
+2014-09-10T19:45:58.010Z,45.6066,26.526,107.3,4.7,mb,,82,0.26,1.28,us,usb000sb63,2015-01-29T19:03:13.584Z,"14km NNW of Lopatari, Romania",earthquake,4.7,3.3,0.081,51,reviewed,buc,us
+2014-08-24T07:12:49.030Z,45.6092,26.3172,147.9,4.3,mb,,153,0.38,0.8,us,usb000s5t6,2014-11-22T02:06:32.000Z,"16km NNW of Gura Teghii, Romania",earthquake,4.8,4.3,0.077,48,reviewed,buc,us
+2014-06-24T19:39:53.090Z,43.8088,24.4734,17.9,4.1,mwr,,67,0.2,1.17,us,usc000rlct,2014-09-19T17:23:39.000Z,"3km NW of Corabia, Romania",earthquake,,5.7,0.098,10,reviewed,buc,us
+2014-04-03T12:38:57.040Z,45.4746,26.4005,124.1,4.6,mb,,79,0.23,1.05,us,usc000p2ua,2015-01-30T22:04:16.859Z,"1km SW of Gura Teghii, Romania",earthquake,,3.7,0.099,32,reviewed,buc,us
+2014-03-29T19:18:04.100Z,45.5782,26.4271,135.7,4.7,mb,,115,0.2,0.77,us,usc000nw6b,2015-01-29T16:25:15.460Z,"10km N of Gura Teghii, Romania",earthquake,,3.3,0.052,115,reviewed,buc,us
+2014-03-29T01:55:16.040Z,45.35,26.2472,147.1,4.1,mb,,18,0.25,0.55,us,usc000nvjh,2014-05-29T23:32:07.000Z,"3km E of Chiojdu, Romania",earthquake,,4.8,0.523,3,reviewed,buc,us
+2014-03-26T19:46:29.010Z,45.6409,26.5562,132.7,4.6,mb,,71,0.22,0.84,us,usc000nrts,2014-05-29T23:32:05.000Z,"14km WNW of Vintileasca, Romania",earthquake,,4,0.107,29,reviewed,buc,us
+2014-02-24T00:22:53.070Z,45.7205,26.6776,106.7,4.4,mb,,62,0.13,1,us,usc000mx4w,2014-05-07T00:03:09.000Z,"3km W of Nereju, Romania",earthquake,,3.9,0.09,35,reviewed,buc,us
+2014-02-03T00:26:31.070Z,45.6743,26.471,135,4.1,mb,,25,0.21,0.74,us,usc000mfty,2014-04-08T01:43:24.000Z,"18km ESE of Comandau, Romania",earthquake,,4.1,0.12,21,reviewed,buc,us
+2014-01-23T06:15:05.000Z,45.4215,26.2587,127,4.7,mb,,53,0.23,1.24,us,usb000m6js,2015-01-30T11:04:53.389Z,"3km W of Nehoiu, Romania",earthquake,,3.7,0.084,44,reviewed,buc,us
+2014-01-12T18:26:02.030Z,45.5036,26.3878,137,3.9,mb,,79,0.23,1.09,us,usc000m1n2,2014-03-15T03:39:19.000Z,"3km NW of Gura Teghii, Romania",earthquake,,2.5,0.194,10,reviewed,buc,us
+2013-12-29T19:22:12.050Z,45.6365,26.4553,145,4.3,mb,,21,0.2,0.46,us,usc000ltty,2014-02-28T08:44:13.000Z,"17km N of Gura Teghii, Romania",earthquake,,4.9,0.533,,reviewed,buc,us
+2013-11-21T06:38:52.050Z,45.793,26.7264,89.9,4.4,mb,,105,0.07,1.14,us,usb000l3cy,2014-02-11T02:18:53.000Z,"1km NE of Paltin, Romania",earthquake,,3.8,0.143,,reviewed,buc,us
+2013-11-07T14:34:53.060Z,45.7094,26.7098,136.2,4.2,mb,,31,0.15,0.76,us,usb000kx54,2014-01-17T00:29:11.000Z,"0km SSW of Nereju, Romania",earthquake,,3.6,0.265,,reviewed,buc,us
+2013-10-15T19:33:12.720Z,45.6372,26.5356,140.4,4.9,mb,,14,0.439,1.04,us,usb000kdz1,2015-01-29T21:45:11.353Z,"15km WNW of Vintileasca, Romania",earthquake,,4.6,0.042,,reviewed,us,us
+2013-10-06T01:37:20.860Z,45.7013,26.5781,127,5.3,mww,,15,0.491,1.05,us,usb000k7k2,2015-01-28T13:09:36.707Z,"10km W of Nereju, Romania",earthquake,,1.8,,,reviewed,us,us
+2013-09-30T05:01:57.740Z,45.487,27.794,4.9,4.1,mb,,,,1.28,us,usb000k2gp,2013-12-13T09:00:37.000Z,"2km SW of Schela, Romania",earthquake,,5.6,0.14,,reviewed,buc,us
+2013-09-29T18:10:51.000Z,45.49,27.84,5,4.1,mb,,,,1.83,us,usb000k28u,2013-12-13T09:00:36.000Z,"2km ESE of Schela, Romania",earthquake,,1.9,0.165,,reviewed,buc,us
+2013-09-08T13:22:12.630Z,45.6097,22.8657,5,4.6,mb,,,,0.75,us,usb000jlkt,2015-01-30T07:40:07.569Z,"1km WSW of Unirea, Romania",earthquake,,4.7,0.137,,reviewed,us_buc,us
+2013-09-08T13:00:42.500Z,45.59,22.9,10,4.3,mb,,,,0.59,us,usb000jlkd,2013-11-15T03:20:29.000Z,"2km NNE of Totesti, Romania",earthquake,,5.5,0.308,,reviewed,us_buc,us
+2013-08-11T13:31:08.760Z,45.7937,26.6976,100,4.3,mb,,,,1.18,us,usb000j0p4,2013-10-12T21:32:35.000Z,"1km NW of Paltin, Romania",earthquake,,7.7,0.201,,reviewed,us_buc,us
+2013-03-16T00:34:18.080Z,46.189,27.096,15,4.2,mb,39,67.8,,,us,usb000flqq,2014-11-07T01:50:20.662Z,"3km WNW of Urechesti, Romania",earthquake,,,,7,reviewed,buc,us
+2012-12-01T20:52:07.700Z,45.711,26.738,92.8,4.7,mb,172,18.1,,,us,usp000jwat,2015-03-24T01:48:01.562Z,"Romania",earthquake,,,,35,reviewed,buc,us
+2012-07-12T02:20:23.950Z,45.723,26.526,120,4.3,mb,61,50.4,,,us,usp000jnwp,2014-11-07T01:48:18.820Z,"Romania",earthquake,,,,6,reviewed,buc,us
+2012-07-06T22:48:00.460Z,45.684,26.672,112.9,4.1,mwr,111,18.6,,,us,usp000jnpf,2015-03-24T01:55:35.873Z,"Romania",earthquake,,,,,reviewed,buc,us
+2012-05-26T02:30:26.420Z,45.754,26.705,120.5,4.5,mb,33,75.4,,,us,usp000jkxs,2014-11-07T01:47:52.884Z,"Romania",earthquake,,,,1,reviewed,buc,us
+2012-01-10T18:25:45.990Z,45.495,26.293,139.9,4.5,mb,74,33.5,,,us,usp000jdap,2014-11-07T01:46:45.968Z,"Romania",earthquake,,,,11,reviewed,buc,us
+2012-01-01T23:57:19.400Z,45.03,23.54,6,4.5,mb,97,26.6,,,us,usp000jcy5,2015-03-24T01:24:30.030Z,"Romania",earthquake,,,,16,reviewed,buc,us
+2011-10-04T02:40:48.350Z,45.542,26.463,133.9,4.7,mb,241,19.5,,,us,usp000j8wd,2015-03-24T01:41:35.278Z,"Romania",earthquake,,,,81,reviewed,buc,us
+2011-09-08T13:50:32.400Z,45.65,26.57,114,4.2,mb,9,118.6,,,us,usp000j7ss,2014-11-07T01:45:51.485Z,"Romania",earthquake,,,,5,reviewed,buc,us
+2011-06-24T13:08:40.000Z,47.38,25.81,6,4.4,mb,35,42.6,,,us,usp000j3p3,2014-11-07T01:45:09.776Z,"Romania",earthquake,,,,3,reviewed,buc,us
+2011-05-01T02:24:16.060Z,45.584,26.455,137.5,4.6,mb,207,15,,,us,usp000j0uj,2015-03-24T01:45:04.862Z,"Romania",earthquake,,,,55,reviewed,buc,us
+2010-09-30T05:31:22.580Z,45.539,26.249,135.2,4.5,mb,82,29.9,,0.85,us,usp000hmcw,2015-03-24T02:10:12.906Z,"Romania",earthquake,,,,7,reviewed,us,us
+2010-06-08T15:16:09.820Z,45.621,26.369,107.7,4.5,mb,85,30.4,,0.9,us,usp000hdr6,2015-03-24T01:09:32.573Z,"Romania",earthquake,,,,17,reviewed,us,us
+2009-12-26T23:04:39.490Z,45.75,26.718,102.3,4.5,mb,67,27.4,,,us,usp000h5d7,2014-11-07T01:40:18.841Z,"Romania",earthquake,,,,11,reviewed,buc,us
+2009-12-06T20:15:44.000Z,45.421,27.032,20,4.5,mb,61,39.8,,,us,usp000h4tq,2014-11-07T01:40:14.701Z,"Romania",earthquake,,,,5,reviewed,buc,us
+2009-07-24T20:27:09.850Z,45.713,26.472,132.6,4.5,mb,51,81.5,,1.06,us,usp000gzkf,2014-11-07T01:39:21.179Z,"Romania",earthquake,,,,17,reviewed,us,us
+2009-04-25T17:18:48.640Z,45.654,26.606,100.7,5.2,mwb,355,13.9,,,us,usp000gwk1,2016-11-10T02:11:20.257Z,"Romania",earthquake,,,,,reviewed,buc,us
+2008-12-17T07:37:50.270Z,45.682,26.478,86.1,4.3,m,22,84.9,,,us,usp000gqsh,2014-11-07T01:37:58.825Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-12-01T21:23:04.120Z,45.672,26.54,146.5,4.1,md,58,22.1,,,us,usp000gpsc,2014-11-07T01:37:51.807Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-10-20T11:03:02.450Z,45.868,26.856,73.6,3.9,m,21,52.4,,,us,usp000gknm,2014-11-07T01:37:30.747Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-10-15T13:39:18.690Z,45.622,26.456,138.7,4,mb,17,61.8,,,us,usp000gkac,2014-11-07T01:37:29.365Z,"Romania",earthquake,,,,1,reviewed,buc,us
+2008-10-02T14:04:48.350Z,45.707,26.572,151.5,3.9,mb,17,84.5,,0.68,us,usp000gj5g,2014-11-07T01:37:22.061Z,"Romania",earthquake,,7.5,,1,reviewed,us,us
+2008-09-06T19:48:03.120Z,45.848,26.549,24.6,4.5,mb,83,31.5,,1.34,us,usp000ggjb,2014-11-07T01:37:08.466Z,"Romania",earthquake,,13.4,,28,reviewed,us,us
+2008-08-29T07:55:54.960Z,45.505,26.328,170,3.9,md,18,82.5,,,us,usp000gfx3,2014-11-07T01:37:01.026Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-08-17T05:00:52.200Z,45.582,21.248,13.7,2.6,ml,15,136,,,us,usp000gev2,2014-11-07T01:36:55.584Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-08-14T05:03:36.940Z,45.672,26.533,126.6,3.3,m,22,39.7,,,us,usp000gemm,2014-11-07T01:36:53.820Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-08-10T00:10:15.880Z,45.527,26.56,125.6,2.7,m,16,71.1,,,us,usp000gea9,2014-11-07T01:36:52.214Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-08-02T09:04:00.360Z,44.6,26.253,27.6,3.4,ml,19,110.6,,,us,usp000gdnk,2014-11-07T01:36:48.611Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-31T06:42:19.350Z,45.386,26.123,126.2,2.7,m,8,101.9,,,us,usp000gdh5,2014-11-07T01:36:44.479Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-16T12:27:34.180Z,45.452,26.365,143.4,3.7,m,25,67.9,,,us,usp000gcaw,2014-11-07T01:36:38.676Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-15T17:41:13.760Z,45.459,26.238,135.6,3.6,m,18,50.6,,,us,usp000gc8w,2014-11-07T01:36:38.281Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-10T16:13:40.470Z,45.179,23.08,11.3,3.4,ml,14,209.7,,,us,usp000gbu9,2014-11-07T01:36:36.525Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-07T05:44:53.610Z,45.781,26.745,87.8,2.8,m,10,104.7,,,us,usp000gbhk,2014-11-07T01:36:35.285Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-07-04T23:19:26.840Z,45.648,26.538,146.7,4,mb,58,40.6,,,us,usp000gbbm,2014-11-07T01:36:34.316Z,"Romania",earthquake,,,,9,reviewed,buc,us
+2008-07-03T13:44:06.690Z,45.629,26.554,138.5,3.7,md,22,91.7,,,us,usp000gb83,2014-11-07T01:36:33.639Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-07-03T00:55:12.400Z,45.579,26.376,149.7,3.3,md,23,53.4,,,us,usp000gb6d,2014-11-07T01:36:33.143Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-06-27T11:24:36.870Z,45.029,23.136,20.7,3.3,ml,7,226.7,,,us,usp000gaps,2014-11-07T01:36:26.584Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-06-26T21:46:28.710Z,45.685,26.658,135,3.8,md,30,47.6,,,us,usp000ganj,2014-11-07T01:36:26.465Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-06-24T10:12:44.290Z,45.662,26.561,96.1,2.6,m,6,115.3,,,us,usp000gaes,2014-11-07T01:36:25.480Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-06-22T13:35:45.650Z,44.604,21.59,5,3.4,ml,10,167.3,,,us,usp000gaam,2014-11-07T01:36:25.001Z,"Serbia",earthquake,,,,,reviewed,buc,buc
+2008-06-20T06:32:32.240Z,46.026,26.785,100,3.2,md,13,95.4,,,us,usp000ga4z,2014-11-07T01:36:23.508Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-06-18T16:01:21.940Z,45.778,27.148,24.5,2.5,ml,9,189.2,,,us,usp000ga0b,2014-11-07T01:36:22.926Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-06-10T17:13:32.290Z,45.652,26.654,131.2,3,m,8,115.9,,,us,usp000g951,2014-11-07T01:36:18.307Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-06-05T14:21:32.030Z,45.785,26.269,170,3.4,m,8,121,,,us,usp000g8my,2014-11-07T01:36:15.103Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-06-04T03:26:32.380Z,45.655,26.665,131,2.8,m,7,119.3,,,us,usp000g8h6,2014-11-07T01:36:14.399Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-05-31T13:59:28.320Z,45.626,26.785,120,3.2,m,7,122.7,,,us,usp000g87b,2014-11-07T01:36:08.512Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-05-31T04:32:43.400Z,45.679,26.524,143.4,3.6,mb,30,84.8,,0.91,us,usp000g865,2014-11-07T01:36:08.159Z,"Romania",earthquake,,5.1,,5,reviewed,us,us
+2008-05-27T13:59:28.320Z,45.626,26.785,120,3.2,m,6,122.7,,,us,usp000g7ws,2014-11-07T01:36:06.994Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-05-27T04:32:43.660Z,45.626,26.556,150,3.7,m,9,91.2,,,us,usp000g7vp,2014-11-07T01:36:06.773Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-05-25T09:31:34.760Z,45.504,26.428,137.2,4,md,19,86.1,,,us,usp000g7r9,2014-11-07T01:36:06.163Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2008-05-15T04:29:56.310Z,45.022,25.766,30,3.1,ml,5,225.8,,,us,usp000g6tu,2014-11-07T01:36:00.627Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-05-08T01:38:41.760Z,45.545,26.385,150,3.4,m,10,68.1,,,us,usp000g5tw,2014-11-07T01:35:53.759Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-04-12T19:07:11.050Z,45.619,26.52,138.9,2.7,m,9,112.6,,,us,usp000g3sq,2014-11-07T01:35:36.441Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-04-07T10:56:08.210Z,45.668,26.607,137.9,3.1,m,13,61.7,,,us,usp000g39w,2014-11-07T01:35:33.035Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-03-30T17:32:43.520Z,45.25,24.83,5,2.8,ml,10,203.8,,,us,usp000g2r5,2014-11-07T01:35:21.389Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-03-27T11:51:02.940Z,45.628,26.595,132.4,2.8,m,6,119.2,,,us,usp000g2g0,2014-11-07T01:35:19.795Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-03-27T08:08:25.780Z,45.357,26.284,126.9,2.8,m,10,152.1,,,us,usp000g2fu,2014-11-07T01:35:19.749Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-03-21T16:19:00.210Z,45.79,27.125,23,4.1,ml,50,52.6,,,us,usp000g1zj,2014-11-07T01:35:17.475Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-03-16T23:31:55.350Z,45.385,26.272,150,3.2,md,14,81.9,,,us,usp000g1mz,2014-11-07T01:35:16.135Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-03-05T23:21:14.490Z,45.586,26.499,150,3.5,md,12,71.8,,,us,usp000g0th,2014-11-07T01:35:11.627Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-02-16T04:25:03.740Z,45.705,26.384,170,3.3,m,11,78.4,,,us,usp000fz0r,2014-11-07T01:34:57.471Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-02-11T03:31:31.310Z,45.589,26.576,103.8,3.8,mb,67,57.2,,,us,usp000fyn6,2014-11-07T01:34:55.892Z,"Romania",earthquake,,,,14,reviewed,buc,us
+2008-02-09T08:38:49.700Z,45.518,26.45,143.1,3.9,md,16,63.3,,,us,usp000fygu,2014-11-07T01:34:55.289Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2008-01-30T13:09:30.790Z,45.626,26.499,150,3.9,mb,34,55.1,,,us,usp000fxsk,2014-11-07T01:34:47.101Z,"Romania",earthquake,,,,2,reviewed,buc,us
+2008-01-28T02:56:21.500Z,45.555,26.489,10.9,3.6,ml,41,39.7,,,us,usp000fxky,2014-11-07T01:34:46.401Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-01-26T04:04:58.860Z,44.663,25.757,6.1,3.1,ml,16,141.8,,,us,usp000fxg2,2014-11-07T01:34:46.069Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-01-11T14:56:35.610Z,44.457,25.327,80,3.2,m,10,196.2,,,us,usp000fwfx,2014-11-07T01:34:40.294Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-01-08T19:26:36.550Z,45.567,26.59,128.9,2.5,m,6,128.4,,,us,usp000fw9a,2014-11-07T01:34:39.043Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-01-08T18:47:03.580Z,45.52,26.406,102.7,2.5,m,5,137.9,,,us,usp000fw97,2014-11-07T01:34:39.021Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2008-01-08T08:24:31.700Z,45.668,26.709,120.8,3.3,md,7,113.9,,,us,usp000fw84,2014-11-07T01:34:38.946Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-01-06T09:31:18.820Z,45.617,26.532,126.8,3.2,md,8,120.6,,,us,usp000fw3b,2014-11-07T01:34:37.688Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2008-01-03T09:44:57.570Z,45.662,26.626,137.6,2.7,m,7,113.8,,,us,usp000fvwg,2014-11-07T01:34:36.057Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-31T06:49:38.120Z,45.582,26.514,137.6,3.4,md,7,128.2,,,us,usp000fvq0,2014-11-07T01:34:31.390Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-12-27T04:20:58.780Z,44.457,25.327,80,2.8,m,5,259.8,,,us,usp000fvbf,2014-11-07T01:34:29.539Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-26T23:42:32.470Z,45.586,26.613,70,3.4,md,12,87.7,,,us,usp000fvav,2014-11-07T01:34:29.431Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-12-23T18:29:25.890Z,45.825,26.326,200,3.7,m,14,104.1,,,us,usp000fv3e,2014-11-07T01:34:28.415Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-21T19:35:22.320Z,45.467,26.301,121.7,3.2,m,12,136,,,us,usp000fuyz,2014-11-07T01:34:27.836Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-19T12:06:06.110Z,45.608,26.471,145.5,3.1,m,10,68.8,,,us,usp000fut9,2014-11-07T01:34:26.917Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-11T18:36:23.580Z,45.226,26.955,40,2.7,m,5,152.3,,,us,usp000fu9d,2014-11-07T01:34:23.831Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-11T15:18:52.600Z,45.385,27.013,5,3.2,ml,7,128,,,us,usp000fu8z,2014-11-07T01:34:23.753Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-05T08:19:14.220Z,45.345,26.215,120,3.2,m,9,148.9,,,us,usp000ftvn,2014-11-07T01:34:21.429Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-05T04:43:21.770Z,45.585,26.328,70,3.2,m,21,65,,,us,usp000ftvg,2014-11-07T01:34:21.414Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-12-01T07:08:10.480Z,43.844,26.083,0,2.6,ml,5,235.3,,,us,usp000ftn4,2014-11-07T01:34:18.924Z,"Bulgaria",earthquake,,,,,reviewed,buc,buc
+2007-11-29T18:50:05.980Z,45.574,27.04,7.1,4,mb,31,71.3,,,us,usp000ftj0,2014-11-07T01:34:16.030Z,"Romania",earthquake,,,,1,reviewed,buc,us
+2007-11-17T20:00:34.600Z,45.402,26.336,125.7,2.9,m,8,141.3,,,us,usp000fst3,2014-11-07T01:34:11.565Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-11-08T04:04:10.290Z,45.423,25.873,70,2.8,m,9,146.6,,,us,usp000fs5s,2014-11-07T01:34:08.383Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-11-08T01:23:49.330Z,45.465,26.329,100,2.9,m,14,71.1,,,us,usp000fs5j,2014-11-07T01:34:08.364Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-30T17:56:03.300Z,45.497,27.625,50,4.1,mb,42,42.7,,,us,usp000frmd,2014-11-07T01:34:01.376Z,"Romania",earthquake,,,,2,reviewed,buc,us
+2007-10-30T03:22:27.130Z,45.73,26.65,111.3,3.5,m,17,59.8,,,us,usp000frk6,2014-11-07T01:34:01.258Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-29T19:30:20.460Z,45.625,26.659,117,2.7,m,10,112.4,,,us,usp000frj9,2014-11-07T01:34:01.085Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-25T11:37:33.640Z,45.66,26.454,85.2,2.9,m,22,65.9,,,us,usp000fr86,2014-11-07T01:33:59.307Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-16T15:11:41.810Z,45.584,26.563,102.6,2.5,m,5,125.9,,,us,usp000fqpw,2014-11-07T01:33:56.594Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-14T14:43:43.250Z,44.103,27.117,4.5,2.9,ml,7,257.5,,,us,usp000fqj6,2014-11-07T01:33:55.903Z,"Bulgaria",earthquake,,,,,reviewed,buc,buc
+2007-10-14T02:57:00.660Z,45.694,26.652,73.9,2.6,m,5,119.3,,,us,usp000fqgn,2014-11-07T01:33:55.717Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-10T06:59:20.280Z,45.133,22.961,6.5,3,ml,18,115.2,,,us,usp000fq84,2014-11-07T01:33:53.343Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-10-02T17:56:28.780Z,45.454,26.397,110.8,2.5,m,7,144.9,,,us,usp000fpqr,2014-11-07T01:33:48.256Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-09-27T11:11:46.380Z,45.652,26.469,140,3.4,m,8,106.8,,,us,usp000fp7a,2014-11-07T01:33:40.878Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-09-22T09:54:11.840Z,45.512,26.347,139.4,3.8,m,15,74.6,,1.16,us,usp000fnw4,2014-11-07T01:33:38.178Z,"Romania",earthquake,,17.1,,,reviewed,us,buc
+2007-09-04T12:33:03.750Z,45.525,26.446,144.6,3.1,m,8,136.7,,,us,usp000fmds,2014-11-07T01:33:30.361Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-08-15T02:41:15.070Z,45.588,26.583,120,3.4,m,14,68.4,,,us,usp000fjqq,2014-11-07T01:33:16.108Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-08-13T14:42:26.780Z,45.53,26.293,160,3.6,m,9,71.8,,,us,usp000fjkn,2014-11-07T01:33:15.614Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-08-12T21:45:41.620Z,45.598,26.691,116.9,2.8,md,6,121.6,,,us,usp000fjhj,2014-11-07T01:33:15.365Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-08-09T21:25:43.290Z,45.677,26.777,79.2,3.4,md,16,73.5,,,us,usp000fj9k,2014-11-07T01:33:13.824Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-08-08T23:21:59.800Z,45.644,26.511,116.7,3.5,md,12,96.5,,,us,usp000fj7e,2014-11-07T01:33:13.547Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-08-01T23:21:59.700Z,45.6,26.6,110,3,md,13,69.8,,,us,usp000fhmp,2014-11-07T01:33:09.409Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2007-07-28T19:59:48.310Z,45.492,25.964,8,2.8,ml,7,114.6,,,us,usp000fhaf,2014-11-07T01:33:04.921Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-07-22T11:28:51.760Z,45.319,26.281,119.4,2.6,m,6,159.3,,,us,usp000fgv0,2014-11-07T01:33:02.341Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-07-13T11:17:10.110Z,45.149,23.16,5.1,3,ml,10,211,,,us,usp000fg3a,2014-11-07T01:32:57.170Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-07-12T02:31:21.890Z,45.573,26.535,136.4,2.7,m,7,121.5,,,us,usp000fg0e,2014-11-07T01:32:56.633Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-07-06T02:31:27.940Z,45.574,26.623,108.3,2.9,m,10,79.8,,,us,usp000ffk0,2014-11-07T01:32:54.811Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-06-28T15:04:24.230Z,45.827,26.758,100,3,m,5,171.5,,,us,usp000ff1g,2014-11-07T01:32:46.754Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-06-23T00:33:25.630Z,45.747,26.241,200,3.8,mb,11,111.3,,,us,usp000fekt,2014-11-07T01:32:44.998Z,"Romania",earthquake,,,,2,reviewed,buc,us
+2007-06-19T07:54:13.310Z,45.682,26.733,122.9,3.1,m,10,122.8,,,us,usp000feb8,2014-11-07T01:32:43.732Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-06-16T11:59:54.290Z,45.594,26.507,141,3.3,m,7,99.9,,,us,usp000fe52,2014-11-07T01:32:43.049Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-05-27T10:06:51.570Z,45.59,26.488,148,4.2,md,15,97.9,,,us,usp000fcv9,2014-11-07T01:32:32.295Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-05-20T11:09:07.450Z,44.032,21.508,10,3.9,ml,46,47.4,,,us,usp000fcc9,2014-11-07T01:32:30.172Z,"Serbia",earthquake,,,,,reviewed,buc,the
+2007-05-18T16:16:29.780Z,44.374,22.107,10,2.5,ml,6,189.1,,,us,usp000fc86,2014-11-07T01:32:29.369Z,"Serbia",earthquake,,,,,reviewed,buc,buc
+2007-05-12T19:06:41.100Z,45.594,26.468,141.8,4.1,mb,39,44.7,,,us,usp000fbus,2014-11-07T01:32:27.586Z,"Romania",earthquake,,,,6,reviewed,buc,us
+2007-05-06T06:54:23.160Z,45.696,26.635,91.1,2.8,m,9,123.4,,,us,usp000fbcc,2014-11-07T01:32:24.945Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-05-05T17:30:09.780Z,45.734,26.611,90,3.4,m,15,102.8,,,us,usp000fbag,2014-11-07T01:32:24.614Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-05-04T07:45:02.850Z,45.578,26.584,127.3,2.8,m,7,126.8,,,us,usp000fb71,2014-11-07T01:32:23.966Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-05-03T20:07:12.550Z,45.723,26.635,84.8,3,m,14,110.3,,,us,usp000fb60,2014-11-07T01:32:23.793Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-05-01T12:07:31.320Z,45.561,26.294,160,3.2,m,6,142.3,,,us,usp000fb0q,2014-11-07T01:32:21.763Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-04-24T03:58:24.240Z,44.728,26.275,15,2.9,ml,18,105.8,,,us,usp000faf1,2014-11-07T01:32:15.736Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-04-17T02:01:57.710Z,45.448,26.388,114.4,2.6,m,6,145.6,,,us,usp000f9wp,2014-11-07T01:32:12.859Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-04-05T09:00:30.400Z,45.358,26.363,113.6,3.4,md,5,154.4,,,us,usp000f8ry,2014-11-07T01:32:06.977Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-04-05T01:22:29.920Z,45.65,26.584,100,4,mb,31,75.1,,,us,usp000f8qk,2014-11-07T01:32:06.789Z,"Romania",earthquake,,,,1,reviewed,buc,us
+2007-04-02T01:03:02.290Z,45.672,26.714,77.2,2.5,m,7,112.9,,,us,usp000f85m,2014-11-07T01:32:02.843Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-03-28T00:59:05.830Z,45.591,26.41,140,4.2,md,14,90.6,,,us,usp000f7p4,2014-11-07T01:31:57.083Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-03-17T15:46:49.880Z,45.615,26.83,98,2.8,md,4,151.2,,,us,usp000f6vw,2014-11-07T01:31:53.157Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2007-03-09T21:44:18.030Z,45.591,26.352,150,3.8,mb,42,55.6,,,us,usp000f6d6,2014-11-07T01:31:50.840Z,"Romania",earthquake,,,,2,reviewed,buc,us
+2007-03-03T14:34:39.170Z,45.789,26.734,124.5,3.3,md,5,166.8,,,us,usp000f601,2014-11-07T01:31:47.939Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2007-02-24T21:37:44.920Z,45.49,26.982,10,2.5,ml,4,160.1,,,us,usp000f5jf,2014-11-07T01:31:41.848Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-02-15T02:32:54.690Z,45.787,26.793,90.3,4,mb,70,48.9,,,us,usp000f4wj,2014-11-07T01:31:38.072Z,"Romania",earthquake,,,,10,reviewed,buc,us
+2007-02-14T06:56:37.570Z,45.564,26.243,140.3,4.2,mb,105,38.1,,1.23,us,usp000f4uv,2014-11-07T01:31:37.646Z,"Romania",earthquake,,,,38,reviewed,us,us
+2007-02-04T04:19:56.630Z,45.662,26.736,75.3,2.7,m,6,136.3,,,us,usp000f489,2014-11-07T01:31:34.048Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-01-27T08:24:33.330Z,45.598,26.75,112.7,3,md,4,136.8,,,us,usp000f3qx,2014-11-07T01:31:27.916Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-01-22T20:33:45.110Z,45.612,26.516,140.2,3.1,md,7,99.8,,,us,usp000f3bh,2014-11-07T01:31:26.508Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2007-01-22T02:30:27.570Z,45.216,27.119,15,2.8,ml,16,115.4,,,us,usp000f38p,2014-11-07T01:31:26.207Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-01-17T13:17:22.900Z,45.59,26.397,121,4.4,mb,59,64.4,,0.95,us,usp000f2v8,2014-11-07T01:31:23.971Z,"Romania",earthquake,,3.5,,13,reviewed,us,us
+2007-01-07T14:25:46.830Z,45.874,27.806,15,3.2,ml,6,235,,,us,usp000f1w5,2014-11-07T01:31:19.606Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-01-07T02:42:20.230Z,45.009,22.479,5,2.6,ml,4,147.9,,,us,usp000f1uu,2014-11-07T01:31:19.469Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2007-01-06T11:42:51.050Z,45.691,26.778,104.1,2.6,m,5,147.6,,,us,usp000f1tt,2014-11-07T01:31:19.290Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-12-08T16:32:34.260Z,46.595,22.919,5,2.6,ml,5,100.9,,,us,usp000ezte,2014-11-07T01:31:06.198Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-12-02T18:14:56.360Z,44.284,21.353,2.7,3.7,ml,7,255.4,,,us,usp000ezcm,2014-11-07T01:31:03.988Z,"Serbia",earthquake,,,,,reviewed,buc,buc
+2006-12-02T10:53:27.790Z,45.605,26.659,132.7,2.7,md,4,125.4,,,us,usp000ezbw,2014-11-07T01:31:03.798Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-11-23T07:15:20.570Z,48.195,22.46,10,4.8,mb,126,24.4,,,us,usp000eyky,2017-04-13T22:20:41.272Z,"Hungary",earthquake,,,,13,reviewed,buc,us
+2006-11-21T02:53:48.720Z,43.893,21.59,10,2.6,ml,5,181.8,,,us,usp000eyee,2014-11-07T01:30:55.230Z,"Serbia",earthquake,,,,,reviewed,buc,buc
+2006-11-21T01:58:47.370Z,43.84,21.595,7.9,4.9,mb,279,13.4,,,us,usp000eyeb,2015-03-24T00:48:37.126Z,"Serbia",earthquake,,,,13,reviewed,pdg,us
+2006-11-19T20:51:13.950Z,45.65,26.584,150,4,md,38,33.7,,,us,usp000ey9y,2014-11-07T01:30:54.351Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-11-18T16:14:06.860Z,45.574,26.607,142.6,3,md,28,91.7,,,us,usp000ey5r,2014-11-07T01:30:53.692Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2006-11-15T18:09:37.070Z,48.085,22.759,10,3.1,ml,18,127.4,,0.72,us,usp000exkn,2014-11-07T01:30:50.163Z,"Hungary",earthquake,,,,,reviewed,us,bra
+2006-11-13T04:33:12.380Z,45.801,26.82,130,3,md,10,170.1,,,us,usp000ex94,2014-11-07T01:30:48.593Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2006-11-09T15:49:49.630Z,45.573,26.441,112.1,2.7,md,15,93.5,,,us,usp000ex0a,2014-11-07T01:30:47.213Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2006-11-09T11:46:05.310Z,45.578,26.544,123.1,3.6,md,10,153.2,,,us,usp000ewzv,2014-11-07T01:30:47.167Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-10-11T14:20:45.570Z,45.511,26.575,111.2,2.9,md,6,136.6,,,us,usp000euy8,2014-11-07T01:30:32.611Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-10-04T18:51:42.890Z,45.588,26.384,142.3,3.6,md,8,120.4,,,us,usp000eugd,2014-11-07T01:30:30.352Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-09-23T05:44:08.340Z,45.591,26.41,120,4.2,mb,80,22.9,,,us,usp000etmv,2014-11-07T01:30:16.048Z,"Romania",earthquake,,,,15,reviewed,buc,us
+2006-09-16T13:03:10.750Z,45.63,26.58,132.8,3.1,md,8,115.8,,,us,usp000et6s,2014-11-07T01:30:14.016Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-09-02T17:37:09.660Z,45.651,26.527,150,4,md,31,79,,,us,usp000esbf,2014-11-07T01:30:08.731Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-08-27T09:16:51.920Z,45.568,26.476,141.1,3.2,md,5,130.3,,,us,usp000ervq,2014-11-07T01:30:02.375Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-08-14T01:40:14.770Z,44.573,25.537,30,2.6,ml,5,194.6,,,us,usp000eqwe,2014-11-07T01:29:57.790Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-08-10T07:19:09.840Z,45.398,23.132,0,3.4,ml,8,195.8,,,us,usp000eqmx,2014-11-07T01:29:56.526Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-08-09T07:19:10.660Z,45.292,23.136,17.2,3.1,ml,7,204.2,,,us,usp000eqjq,2014-11-07T01:29:56.145Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-08-08T20:14:40.780Z,45.75,26.78,69.6,3.8,md,13,100.2,,,us,usp000eqh8,2014-11-07T01:29:55.951Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-08-01T09:53:06.650Z,45.901,26.832,99.4,3.2,md,4,237.5,,,us,usp000eq0m,2014-11-07T01:29:51.743Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-07-26T09:14:14.960Z,45.568,26.571,100.6,3.4,md,7,128.4,,,us,usp000epma,2014-11-07T01:29:46.714Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-07-25T06:37:18.030Z,45.492,26.502,124,3.2,md,9,83.7,,,us,usp000ephs,2014-11-07T01:29:45.898Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-07-14T11:06:07.310Z,46.891,22.328,0,3,ml,4,227.3,,,us,usp000enke,2014-11-07T01:29:38.761Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-07-08T03:58:19.320Z,45.754,26.707,70,3.5,md,41,113.7,,,us,usp000en40,2014-11-07T01:29:36.536Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2006-07-07T21:56:38.420Z,45.551,26.466,134.6,2.9,md,6,133.2,,,us,usp000en3k,2014-11-07T01:29:36.503Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-07-02T21:07:30.150Z,44.547,21.728,15,3,ml,7,237.5,,,us,usp000emt3,2014-11-07T01:29:34.562Z,"Serbia",earthquake,,,,,reviewed,buc,buc
+2006-06-30T10:48:01.400Z,45.639,26.577,88.2,3.7,md,16,87.4,,,us,usp000emms,2014-11-07T01:29:30.331Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-06-28T17:25:00.610Z,44.489,21.72,10,3.4,md,25,105.7,,0.93,us,usp000emgh,2014-11-07T01:29:29.737Z,"Serbia",earthquake,,,,,reviewed,us,sof
+2006-06-28T00:12:43.250Z,45.623,26.747,84.7,3.3,md,7,123.1,,,us,usp000emev,2014-11-07T01:29:29.536Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-06-08T16:55:12.110Z,45.343,24.685,10,2.5,ml,4,203.6,,,us,usp000ejyn,2014-11-07T01:29:20.479Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-06-07T23:25:50.400Z,45.93,26.716,72.5,3.2,md,8,157.4,,,us,usp000ejwx,2014-11-07T01:29:20.257Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-05-17T00:43:14.050Z,45.526,26.654,117.2,3,md,8,99.3,,,us,usp000eha1,2014-11-07T01:29:07.917Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-05-12T10:30:44.530Z,45.822,26.623,90,3.8,md,21,100.5,,,us,usp000egxu,2014-11-07T01:29:06.055Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-05-11T01:51:45.410Z,45.519,26.664,113.6,3,md,6,134.2,,,us,usp000egtr,2014-11-07T01:29:05.455Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-04-30T03:07:48.410Z,45.588,26.555,119.7,2.8,md,27,86.2,,,us,usp000eft9,2014-11-07T01:28:56.299Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2006-04-23T18:10:50.400Z,45.781,27.239,12.4,2.7,md,5,209.7,,0.12,us,usp000efc7,2014-11-07T01:28:54.209Z,"Romania",earthquake,,13.6,,,reviewed,us,irsa
+2006-04-13T23:15:46.370Z,44.9,26.032,5,2.8,md,7,204.3,,1.53,us,usp000eefa,2014-11-07T01:28:50.027Z,"Romania",earthquake,,,,,reviewed,us,irsa
+2006-04-10T06:25:03.290Z,45.728,26.494,126.7,3,md,4,171,,,us,usp000ee2u,2014-11-07T01:28:45.111Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-04-09T04:36:24.770Z,45.614,27.646,13.1,2.6,ml,5,209.6,,,us,usp000ee05,2014-11-07T01:28:44.666Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-04-06T20:29:38.200Z,45.714,26.799,73.1,3.4,md,4,137.3,,,us,usp000edv0,2014-11-07T01:28:44.004Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-04-05T01:16:44.610Z,45.488,26.642,115.3,3.1,md,6,98.4,,,us,usp000edq8,2014-11-07T01:28:43.405Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-31T05:35:47.840Z,46.014,27.062,80,4,md,47,69.3,,,us,usp000edau,2014-11-07T01:28:37.263Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-27T20:00:00.320Z,45.424,26.44,111.4,3,md,9,134.7,,,us,usp000ed30,2014-11-07T01:28:36.188Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-27T19:54:18.410Z,45.551,26.504,119.6,4.2,md,32,43.6,,,us,usp000ed2z,2014-11-07T01:28:36.183Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-25T17:33:47.390Z,44.889,26.912,50,2.7,md,6,181.9,,,us,usp000ecxy,2014-11-07T01:28:35.524Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-03-25T09:05:31.340Z,45.316,27.973,5,3,ml,5,197.4,,,us,usp000ecwb,2014-11-07T01:28:35.110Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2006-03-25T02:52:31.100Z,45.625,26.671,101.1,3.2,md,6,119.6,,,us,usp000ecvn,2014-11-07T01:28:34.966Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-22T14:03:57.790Z,45.797,26.808,79.7,3.5,md,7,102.9,,,us,usp000ecqf,2014-11-07T01:28:34.394Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-19T11:43:25.790Z,45.678,26.618,98.8,3.4,md,7,112.3,,,us,usp000ecfr,2014-11-07T01:28:33.360Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-19T11:05:54.830Z,45.611,26.454,147.2,4.5,mb,70,37.2,,,us,usp000ecfm,2014-11-07T01:28:33.345Z,"Romania",earthquake,,,,5,reviewed,buc,us
+2006-03-17T15:35:51.740Z,45.415,26.478,112.9,3.3,md,6,147.1,,,us,usp000ecbu,2014-11-07T01:28:32.370Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-03-17T00:45:11.660Z,43.976,26.594,58.1,3.1,md,8,179.5,,,us,usp000ecaf,2014-11-07T01:28:32.213Z,"Bulgaria",earthquake,,,,,reviewed,irsa,irsa
+2006-03-16T00:48:27.110Z,45.775,26.706,87.5,3.3,md,8,101.3,,,us,usp000ec8f,2014-11-07T01:28:32.013Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-03-06T10:40:45.740Z,45.731,26.741,138.8,4.5,mb,183,19.4,,,us,usp000ebhq,2014-11-07T01:28:28.932Z,"Romania",earthquake,,,,56,reviewed,irsa,us
+2006-03-02T09:54:54.300Z,45.728,26.8,10.8,3.3,md,6,140,,,us,usp000eb5r,2014-11-07T01:28:26.355Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-02-18T11:36:58.020Z,45.595,26.538,143.5,3.8,md,8,83.8,,,us,usp000ea9v,2014-11-07T01:28:19.899Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-02-16T03:29:09.330Z,45.451,26.544,120.8,3,md,7,142.5,,,us,usp000ea4u,2014-11-07T01:28:18.768Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-02-16T02:49:40.270Z,45.699,26.686,122.7,4.6,mb,76,41.1,,,us,usp000ea4s,2014-11-07T01:28:18.758Z,"Romania",earthquake,,,,22,reviewed,buc,us
+2006-02-15T17:37:03.550Z,45.572,26.504,2.9,2.7,md,6,125,,0.29,us,usp000ea3w,2014-11-07T01:28:18.630Z,"Romania",earthquake,,15.4,,,reviewed,us,irsa
+2006-02-13T02:29:55.870Z,45.814,26.765,6.5,2.6,md,5,149.3,,,us,usp000e9zr,2014-11-07T01:28:18.191Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-02-10T17:38:28.100Z,45.707,26.835,76.7,2.8,md,7,144.7,,,us,usp000e9w9,2014-11-07T01:28:17.850Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-02-08T19:11:51.870Z,45.66,26.57,89,2.8,md,6,129.2,,,us,usp000e9sg,2014-11-07T01:28:17.491Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-02-06T22:44:44.970Z,45.534,26.55,129.2,3,md,8,108,,,us,usp000e9nx,2014-11-07T01:28:17.069Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-02-06T10:47:06.480Z,44.73,28.077,30,3.6,md,12,133.2,,,us,usp000e9mh,2014-11-07T01:28:16.922Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-02-04T16:35:25.160Z,45.529,26.375,121.2,2.8,md,6,133.1,,,us,usp000e9fn,2014-11-07T01:28:16.256Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-02-04T03:55:27.510Z,45.257,26.008,17.7,3.1,md,9,171.1,,0.5,us,usp000e9eh,2014-11-07T01:28:15.876Z,"Romania",earthquake,,6,,,reviewed,us,irsa
+2006-02-03T21:44:07.950Z,45.841,26.718,136.3,2.8,md,6,123.2,,,us,usp000e9du,2014-11-07T01:28:15.733Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-02-02T07:32:08.210Z,46.944,21.223,200,2.8,m,5,138.4,,,us,usp000e9ad,2014-11-07T01:28:14.155Z,"Hungary",earthquake,,,,,reviewed,buc,buc
+2006-01-30T20:12:50.260Z,46.091,27.631,10,4.1,md,69,74.6,,,us,usp000e95j,2014-11-07T01:28:10.764Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2006-01-23T09:32:43.860Z,45.701,26.327,125.1,3.2,md,7,100.9,,,us,usp000e8qr,2014-11-07T01:28:08.632Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-01-15T22:53:25.410Z,45.732,26.68,111.9,2.9,md,8,117.8,,,us,usp000e89w,2014-11-07T01:28:06.571Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-01-15T00:56:05.560Z,45.454,26.297,131.9,2.8,md,8,79.4,,0.35,us,usp000e889,2014-11-07T01:28:06.392Z,"Romania",earthquake,,24.2,,,reviewed,us,irsa
+2006-01-09T04:15:58.700Z,45.528,26.548,133.6,3.2,md,10,86.5,,,us,usp000e7wm,2014-11-07T01:28:05.181Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2006-01-08T04:16:01.660Z,45.5,26.558,122.3,2.7,m,5,139.7,,0.2,us,usp000e7tm,2014-11-07T01:28:04.732Z,"Romania",earthquake,,52.7,,,reviewed,us,buc
+2006-01-04T23:53:07.250Z,45.195,29.079,10,3.7,md,14,78.8,,1.13,us,usp000e7m6,2014-11-07T01:28:03.852Z,"Ukraine-Romania border region",earthquake,,,,,reviewed,us,irsa
+2006-01-01T14:10:44.740Z,45.726,26.784,135,3.1,md,5,135.1,,,us,usp000e7bx,2014-11-07T01:28:01.292Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-28T10:53:21.510Z,45.535,26.359,142.6,3.3,md,30,49.7,,,us,usp000e739,2014-11-07T01:27:57.793Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2005-12-27T05:05:33.250Z,45.566,26.512,122,3.3,md,8,81.5,,,us,usp000e70g,2014-11-07T01:27:57.429Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-26T22:58:47.760Z,45.48,26.57,133.7,3.9,md,12,83.2,,,us,usp000e6zs,2014-11-07T01:27:57.335Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-25T04:21:18.660Z,45.67,26.654,100.1,3,md,5,115.8,,,us,usp000e6tx,2014-11-07T01:27:56.455Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-18T15:09:48.820Z,45.374,26.095,59.7,3.8,md,57,44.9,,,us,usp000e6cq,2014-11-07T01:27:54.790Z,"Romania",earthquake,,,,,reviewed,buc,sof
+2005-12-16T20:48:24.120Z,45.581,26.331,10,2.6,md,4,144.7,,0.3,us,usp000e69k,2014-11-07T01:27:54.458Z,"Romania",earthquake,,,,,reviewed,us,irsa
+2005-12-15T04:57:40.800Z,45.474,26.365,0,2.5,md,4,226.3,,,us,usp000e65u,2014-11-07T01:27:54.039Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-13T23:56:44.690Z,45.436,26.436,15.1,2.8,ml,7,106.1,,,us,usp000e63q,2014-11-07T01:27:53.448Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-12-13T12:14:42.620Z,45.766,26.783,144.9,4.8,mwc,275,35.4,,,us,usp000e62y,2016-11-10T01:15:44.229Z,"Romania",earthquake,,,,,reviewed,irsa,hrv
+2005-12-08T22:12:22.370Z,45.766,26.833,80.4,2.5,md,5,158.4,,,us,usp000e5tn,2014-11-07T01:27:51.984Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-05T12:14:03.380Z,44.645,27.164,0,2.6,md,5,213.4,,,us,usp000e5jw,2014-11-07T01:27:50.971Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-12-05T03:58:47.430Z,45.496,26.625,101.9,2.7,md,7,129.6,,,us,usp000e5j0,2014-11-07T01:27:50.853Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-12-03T07:49:51.310Z,45.855,27.271,30,4.7,md,25,69.6,,,us,usp000e5du,2014-11-07T01:27:49.643Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-11-26T20:05:07.500Z,43.833,21.804,25.4,4,mb,57,86.8,,,us,usp000e4yv,2014-11-07T01:27:44.091Z,"Serbia",earthquake,,,,1,reviewed,pdg,us
+2005-11-22T18:53:16.670Z,45.618,26.84,97.2,3,md,5,132.9,,,us,usp000e4qm,2014-11-07T01:27:42.394Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-11-15T19:49:34.640Z,46.047,27.328,17.8,2.9,md,6,259.7,,,us,usp000e48q,2014-11-07T01:27:39.708Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-11-15T16:41:32.710Z,45.826,27.199,29.6,4.1,mb,51,48.5,,,us,usp000e486,2014-11-07T01:27:39.658Z,"Romania",earthquake,,,,4,reviewed,buc,us
+2005-11-07T04:01:09.800Z,45.5,26.3,138,3.2,md,9,99.9,,,us,usp000e3nq,2014-11-07T01:27:36.792Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-11-06T11:13:25.370Z,45.729,26.74,70,3,md,8,122.5,,0.49,us,usp000e3mh,2014-11-07T01:27:36.625Z,"Romania",earthquake,,17.4,,,reviewed,us,irsa
+2005-11-03T17:41:25.310Z,45.765,26.878,89.8,2.7,md,6,169.1,,,us,usp000e3e9,2014-11-07T01:27:35.331Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-31T18:02:45.200Z,46,27.4,31,4.1,md,17,127.8,,,us,usp000e37w,2014-11-07T01:27:30.879Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-31T16:54:50.480Z,44.117,26.583,6,3.1,md,6,267.1,,,us,usp000e37s,2014-11-07T01:27:30.863Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-30T18:29:10.600Z,45.817,26.775,71.7,3,m,9,153.4,,,us,usp000e35q,2014-11-07T01:27:30.570Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-10-29T07:01:21.190Z,45.556,26.514,122.7,3.1,md,5,130.7,,,us,usp000e32k,2014-11-07T01:27:30.199Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-29T00:14:43.820Z,45.531,26.8,69.7,2.5,md,4,130.5,,,us,usp000e31t,2014-11-07T01:27:30.039Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-27T04:37:52.530Z,45.29,27.883,11.3,3.4,ml,6,176,,,us,usp000e2xe,2014-11-07T01:27:29.473Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-10-26T22:51:22.810Z,45.641,26.555,143.2,4.1,mb,103,43.5,,,us,usp000e2ws,2014-11-07T01:27:29.401Z,"Romania",earthquake,,,,23,reviewed,buc,us
+2005-10-26T06:40:48.600Z,45.605,26.618,79.6,2.7,m,6,122.6,,,us,usp000e2vw,2014-11-07T01:27:29.315Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-10-25T02:30:11.580Z,45.927,26.704,68.3,2.6,md,4,255.2,,,us,usp000e2t0,2014-11-07T01:27:28.666Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-22T08:41:06.280Z,45.745,26.587,88.8,3.2,md,10,106.2,,0.84,us,usp000e2h2,2014-11-07T01:27:27.659Z,"Romania",earthquake,,17.3,,,reviewed,us,irsa
+2005-10-21T01:17:38.910Z,45.53,26.477,117.2,4.8,md,32,58.9,,,us,usp000e2cn,2014-11-07T01:27:27.298Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-19T09:08:50.320Z,45.623,26.6,85.6,3,md,7,119.3,,,us,usp000e27y,2014-11-07T01:27:26.631Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-19T01:36:04.470Z,45.496,26.539,120.5,3,md,8,110,,,us,usp000e26x,2014-11-07T01:27:26.484Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-16T11:14:19.110Z,44.295,26.696,6.7,3.1,md,7,233,,,us,usp000e1y9,2014-11-07T01:27:25.037Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-10-15T09:37:34.340Z,45.629,26.511,142.2,3.3,md,5,141.4,,,us,usp000e1wd,2014-11-07T01:27:24.253Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-13T14:03:17.790Z,45.714,26.447,110,4,md,15,91.9,,,us,usp000e1r0,2014-11-07T01:27:23.074Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-13T03:23:00.750Z,45.652,26.82,100.7,2.9,md,9,133.4,,,us,usp000e1q0,2014-11-07T01:27:22.977Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-10-02T01:08:07.830Z,45.715,26.529,104.3,3.4,md,11,146.9,,,us,usp000e0pd,2014-11-07T01:27:15.242Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-29T02:59:56.950Z,45.659,26.521,132.9,3.9,md,8,136.5,,,us,usp000e0g0,2014-11-07T01:27:11.197Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-09-27T14:50:40.720Z,44.616,25.847,9.9,3.6,md,11,163.8,,,us,usp000e0ck,2014-11-07T01:27:10.763Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-26T22:46:58.210Z,45.542,27.178,8,2.9,md,8,139,,,us,usp000e0b8,2014-11-07T01:27:10.567Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-17T06:08:44.120Z,45.593,26.456,139.4,4.3,md,39,37.2,,,us,usp000dzkj,2014-11-07T01:27:05.100Z,"Romania",earthquake,,,,,reviewed,buc,irsa
+2005-09-16T20:15:54.910Z,45.613,26.689,90.6,2.9,md,5,121.2,,,us,usp000dzjw,2014-11-07T01:27:05.039Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-16T18:59:50.420Z,45.804,26.773,85.2,2.8,md,7,149.5,,,us,usp000dzjt,2014-11-07T01:27:05.031Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T16:42:33.010Z,45.221,27.241,1,3.6,md,9,130.8,,,us,usp000dz6q,2014-11-07T01:27:03.172Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T08:02:08.530Z,45.196,27.248,8.8,2.9,md,8,143.6,,,us,usp000dz5w,2014-11-07T01:27:02.904Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T07:39:34.340Z,45.223,27.223,11.4,3.6,md,11,121.6,,,us,usp000dz5v,2014-11-07T01:27:02.902Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T05:29:36.410Z,44.934,26.721,24.2,3.3,md,8,173.6,,,us,usp000dz5k,2014-11-07T01:27:02.880Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T05:01:26.050Z,45.219,27.265,28.2,2.8,md,7,126.6,,,us,usp000dz5f,2014-11-07T01:27:02.860Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-09-10T04:56:55.390Z,45.259,27.206,22,4,ml,26,85.4,,,us,usp000dz5e,2014-11-07T01:27:02.857Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-09-08T16:35:50.980Z,45.528,26.356,139.3,4.2,mb,121,21.4,,,us,usp000dz0q,2014-11-07T01:27:02.179Z,"Romania",earthquake,,,,34,reviewed,buc,us
+2005-09-05T14:23:32.420Z,45.817,26.79,98.9,4.4,mb,181,13.3,,,us,usp000dytx,2014-11-07T01:27:00.720Z,"Romania",earthquake,,,,23,reviewed,irsa,us
+2005-09-02T12:13:24.670Z,45.456,26.567,128.3,3.4,m,9,100.4,,,us,usp000dykj,2014-11-07T01:26:59.113Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-25T17:53:55.800Z,44.785,27.012,10,4,ml,23,92.5,,,us,usp000dy1j,2014-11-07T01:26:52.364Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-24T17:20:25.030Z,44.692,26.984,7.1,3,ml,9,189.6,,,us,usp000dxz7,2014-11-07T01:26:52.116Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-23T22:54:01.750Z,45.58,26.486,130,3.6,m,15,72.2,,,us,usp000dxx8,2014-11-07T01:26:51.790Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-21T02:48:36.980Z,45.516,27.857,4.5,3.6,ml,17,106.2,,,us,usp000dxrx,2014-11-07T01:26:51.075Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-21T01:57:30.410Z,45.494,27.864,6.1,3.4,ml,14,104.9,,,us,usp000dxrv,2014-11-07T01:26:51.056Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-19T18:34:41.980Z,44.94,25.273,10.1,3.9,ml,13,103.7,,,us,usp000dxp0,2014-11-07T01:26:50.332Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-19T07:12:26.310Z,45.6,26.692,107.5,4.1,m,10,102.8,,,us,usp000dxn3,2014-11-07T01:26:50.207Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-17T13:35:24.950Z,45.584,26.432,152,4,m,16,80.4,,,us,usp000dxhr,2014-11-07T01:26:49.906Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-15T15:20:26.510Z,45.525,27.547,5.8,3.8,ml,8,169.2,,,us,usp000dxd0,2014-11-07T01:26:49.248Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-08-08T11:51:18.800Z,45.77,26.56,117,2.9,md,7,112.9,,,us,usp000dwy7,2014-11-07T01:26:46.941Z,"Romania",earthquake,,,,,reviewed,csem,csem
+2005-08-02T09:33:30.390Z,45.473,26.376,135.6,4,m,15,53.9,,,us,usp000dwgh,2014-11-07T01:26:42.179Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-07-29T08:28:06.570Z,45.583,26.567,138.3,2.9,m,5,126.1,,,us,usp000dw6f,2014-11-07T01:26:35.426Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-07-16T01:12:02.940Z,45.82,26.709,90,3,mb,41,45,,,us,usp000dv9r,2014-11-07T01:26:30.125Z,"Romania",earthquake,,,,1,reviewed,buc,us
+2005-07-12T21:11:39.510Z,45.562,26.469,99.2,3.4,md,13,74.3,,,us,usp000dv30,2014-11-07T01:26:28.897Z,"Romania",earthquake,,,,,reviewed,irsa,irsa
+2005-07-12T19:26:56.680Z,45.634,26.576,139.4,2.8,md,8,124.4,,0.4,us,usp000dv2w,2014-11-07T01:26:28.891Z,"Romania",earthquake,,43.5,,,reviewed,us,irsa
+2005-06-18T15:16:42.410Z,45.714,26.695,138.7,5,mwc,393,24.5,,1.02,us,usp000dtc5,2016-11-10T01:07:34.196Z,"Romania",earthquake,,,,,reviewed,us,hrv
+2005-05-17T22:48:14.580Z,45.381,26.293,148.3,3.9,m,14,69.9,,,us,usp000dr2e,2014-11-07T01:25:55.404Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-17T02:52:25.600Z,46.713,23,33.8,3.1,ml,7,117.6,,,us,usp000dr04,2014-11-07T01:25:55.227Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-16T10:22:44.210Z,45.554,26.575,128.5,3,m,7,114.4,,,us,usp000dqyj,2014-11-07T01:25:55.053Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-15T07:42:59.430Z,45.613,26.57,132.9,2.5,m,9,87.5,,,us,usp000dqva,2014-11-07T01:25:54.662Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-14T01:53:20.660Z,45.684,26.437,148.9,5.2,mwc,628,11.6,,,us,usp000dqrj,2016-11-10T01:06:06.117Z,"Romania",earthquake,,,,,reviewed,buc,hrv
+2005-05-13T00:36:05.390Z,45.798,26.708,80,3.8,m,11,110,,,us,usp000dqnm,2014-11-07T01:25:52.746Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-09T17:28:06.190Z,45.408,26.404,111.7,2.9,m,6,149.2,,,us,usp000dqac,2014-11-07T01:25:50.698Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-09T06:53:54.750Z,45.463,26.334,135.8,4.1,m,18,56.9,,,us,usp000dq8y,2014-11-07T01:25:50.536Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-05-07T08:22:12.650Z,45.582,27.035,29.6,2.9,ml,5,154.1,,,us,usp000dq49,2014-11-07T01:25:49.966Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-30T21:46:23.140Z,45.483,27.123,21.7,3.3,ml,8,148.5,,,us,usp000dpmm,2014-11-07T01:25:43.075Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-29T22:15:17.410Z,45.515,26.419,139.8,2.7,m,10,72.8,,,us,usp000dpht,2014-11-07T01:25:42.365Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-29T12:20:48.420Z,45.353,26.35,116.5,3.1,m,10,112.8,,,us,usp000dpgq,2014-11-07T01:25:42.225Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-28T08:56:48.770Z,45.394,26.521,105.7,3,m,7,143,,,us,usp000dpe0,2014-11-07T01:25:41.989Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-26T13:07:14.510Z,45.061,25.897,5.8,2.9,ml,7,194.7,,,us,usp000dp9t,2014-11-07T01:25:41.422Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-24T15:35:06.700Z,45.838,26.774,69.1,3.2,m,9,144.2,,,us,usp000dp4x,2014-11-07T01:25:40.449Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-23T05:18:34.280Z,45.217,28.235,0.4,3.3,ml,9,134,,,us,usp000dp1d,2014-11-07T01:25:39.710Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2005-04-22T12:34:21.250Z,45.41,26.344,114.8,3.7,m,10,118.1,,,us,usp000dp05,2014-11-07T01:25:39.619Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-20T08:17:57.540Z,45.083,22.242,18.7,3.3,ml,6,210.5,,,us,usp000dntq,2014-11-07T01:25:38.511Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-18T12:29:21.560Z,45.183,28.938,5.7,3.5,ml,4,295.2,,,us,usp000dnpb,2014-11-07T01:25:37.824Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2005-04-17T23:48:57.650Z,45.476,26.401,138.4,2.9,m,4,148.1,,,us,usp000dnmy,2014-11-07T01:25:37.399Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-17T22:58:34.050Z,45.315,26.993,34.4,2.6,ml,7,105.6,,,us,usp000dnmq,2014-11-07T01:25:37.379Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-16T04:45:37.870Z,45.149,27.2,10,2.5,ml,8,135.3,,,us,usp000dnfv,2014-11-07T01:25:36.393Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-15T19:58:33.450Z,45.592,26.511,137.2,3.1,m,13,74.7,,,us,usp000dnem,2014-11-07T01:25:36.285Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-10T02:03:41.370Z,45.476,27.639,10.9,2.7,ml,8,167.1,,,us,usp000dmsm,2014-11-07T01:25:31.855Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-07T15:49:24.790Z,46.384,27.897,0,3.7,ml,8,167.2,,,us,usp000dmh0,2014-11-07T01:25:30.424Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-04T18:59:07.010Z,45.385,26.48,115.5,4.2,m,17,53.2,,,us,usp000dm8f,2014-11-07T01:25:29.284Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-04-02T06:52:21.770Z,45.624,26.531,140,3.3,m,10,75.7,,,us,usp000dkzq,2014-11-07T01:25:27.564Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-20T09:51:03.590Z,45.018,22.701,20.5,3,ml,10,123,,,us,usp000djmh,2014-11-07T01:25:16.826Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-18T15:43:01.520Z,45.566,27.795,11.5,4.4,ml,7,123.1,,,us,usp000djfq,2014-11-07T01:25:16.129Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-16T16:41:28.540Z,45.516,26.622,93.5,3.3,m,9,104.6,,,us,usp000djb3,2014-11-07T01:25:15.083Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-15T23:58:01.670Z,45.699,26.584,81.8,3.6,m,11,89,,,us,usp000dj9x,2014-11-07T01:25:14.800Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-15T05:57:51.440Z,45.681,26.667,88.4,3.1,m,4,123.2,,,us,usp000dj8b,2014-11-07T01:25:14.633Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-14T06:31:52.640Z,45.654,26.774,118.8,3.6,m,6,215.5,,,us,usp000dj64,2014-11-07T01:25:14.292Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-09T23:04:11.620Z,45.677,26.797,68.7,2.8,m,5,131.6,,,us,usp000dhwf,2014-11-07T01:25:12.975Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-09T16:34:16.440Z,45.565,26.728,115.4,3.1,m,5,127.2,,,us,usp000dhvx,2014-11-07T01:25:12.877Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-06T22:32:49.080Z,45.62,26.502,146.1,4,mb,51,37,,,us,usp000dhpv,2014-11-07T01:25:12.033Z,"Romania",earthquake,,,,3,reviewed,buc,us
+2005-03-05T21:21:29.500Z,45.563,26.628,94.9,3,m,5,128.7,,,us,usp000dhky,2014-11-07T01:25:11.295Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-03T18:18:38.800Z,46.11,27.18,3,3,ml,7,130.3,,,us,usp000dhf0,2014-11-07T01:25:10.493Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-03-03T07:19:33.400Z,45.548,26.712,113.8,4.5,mb,10,86.5,,0.8,us,usp000dhdu,2014-11-07T01:25:10.171Z,"Romania",earthquake,,12.8,,1,reviewed,us,us
+2005-02-26T10:33:23.260Z,45.454,26.516,117,3.3,m,4,148.7,,,us,usp000dh09,2014-11-07T01:25:03.917Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-02-23T17:09:52.040Z,45.215,25.921,30,3,ml,5,251.2,,,us,usp000dgtv,2014-11-07T01:25:03.003Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-02-15T00:40:28.880Z,45.165,28.856,7.5,2.9,ml,4,258.4,,,us,usp000dg5m,2014-11-07T01:24:59.782Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2005-02-14T23:37:01.920Z,45.398,22.435,20.9,4.2,ml,21,98.9,,,us,usp000dg5g,2014-11-07T01:24:59.716Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-02-13T05:19:42.750Z,47.701,26.683,4.7,4.1,ml,7,224.5,,,us,usp000dg11,2014-11-07T01:24:59.179Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-02-12T00:01:25.760Z,44.41,26.877,0,3.6,ml,8,183.7,,,us,usp000dfyg,2014-11-07T01:24:58.816Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-02-01T19:26:00.280Z,45.441,25.389,0,3.5,ml,9,93.1,,,us,usp000dfc9,2014-11-07T01:24:53.699Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2005-01-24T11:34:54.710Z,45.032,28.944,0.2,2.7,ml,5,244.3,,,us,usp000de6y,2014-11-07T01:24:44.017Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2005-01-18T17:15:30.270Z,45.139,28.875,0.1,3.8,ml,6,312.4,,,us,usp000ddq5,2014-11-07T01:24:41.499Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2004-12-16T19:58:49.340Z,45.897,27.361,6,2.6,m,15,118.3,,,us,usp000dauy,2014-11-07T01:24:18.265Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-11-24T18:36:55.840Z,45.158,28.789,3.5,3.8,ml,9,179.6,,,us,usp000d947,2014-11-07T01:24:04.776Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2004-11-23T18:33:27.070Z,45.684,26.751,115.4,3.7,mb,28,88.1,,,us,usp000d921,2014-11-07T01:24:04.547Z,"Romania",earthquake,,,,2,reviewed,buc,us
+2004-11-17T11:31:02.820Z,45.745,26.722,126.4,4.2,mb,60,30,,1.06,us,usp000d8n8,2014-11-07T01:24:01.733Z,"Romania",earthquake,,,,25,reviewed,us,us
+2004-11-16T16:34:03.110Z,45.147,28.889,1,3.7,ml,5,254.6,,,us,usp000d8km,2014-11-07T01:24:01.565Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2004-11-08T08:55:55.530Z,45.223,28.239,0,3.1,ml,4,296.5,,,us,usp000d7xu,2014-11-07T01:23:57.272Z,"Ukraine-Romania-Moldova border region",earthquake,,,,,reviewed,buc,buc
+2004-10-27T20:34:36.810Z,45.787,26.622,95.8,5.9,mwb,681,9.8,,0.94,us,usp000d778,2016-11-10T00:50:14.398Z,"Romania",earthquake,,,,,reviewed,us,us
+2004-10-24T19:56:15.040Z,45.563,26.38,155.9,4.3,mb,109,32.4,,1.02,us,usp000d709,2014-11-07T01:23:48.745Z,"Romania",earthquake,,,,29,reviewed,us,us
+2004-10-03T09:02:06.980Z,45.198,28.972,31.2,4.8,mwc,319,32.9,,1.05,us,usp000d5p1,2016-11-10T00:47:44.037Z,"Ukraine-Romania-Moldova border region",earthquake,,5.8,,,reviewed,us,hrv
+2004-09-27T09:16:23.920Z,45.695,26.475,145.1,4.8,mwc,326,18.6,,1.11,us,usp000d552,2016-11-10T00:47:02.441Z,"Romania",earthquake,,,,,reviewed,us,hrv
+2004-09-12T04:26:09.070Z,45.465,26.373,139,3.9,md,8,116.6,,,us,usp000d449,2014-11-07T01:23:28.219Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-07-22T17:09:29.870Z,45.642,26.381,153.3,4,mb,77,35,,0.88,us,usp000d0pt,2014-11-07T01:22:57.028Z,"Romania",earthquake,,2.9,,24,reviewed,us,us
+2004-07-10T00:34:58.730Z,45.715,26.515,149.3,4.2,mb,139,37,,1.12,us,usp000czvt,2014-11-07T01:22:52.567Z,"Romania",earthquake,,3.2,,47,reviewed,us,us
+2004-05-19T22:37:52.440Z,45.221,24.875,5.8,4.2,mb,26,82.4,,0.98,us,usp000cvm3,2014-11-07T01:22:21.352Z,"Romania",earthquake,,7.2,,1,reviewed,us,us
+2004-04-22T16:08:47.750Z,45.458,26.407,123.8,3.8,md,4,112.8,,,us,usp000ct4z,2014-11-07T01:22:04.348Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-04-21T01:03:22.570Z,45.656,26.548,151.7,3.6,md,4,141.9,,,us,usp000ct0p,2014-11-07T01:22:03.769Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-04-04T06:41:05.860Z,45.763,26.456,138.2,4.7,md,32,65.6,,1.06,us,usp000crnf,2014-11-07T01:21:54.245Z,"Romania",earthquake,,9.5,,,reviewed,us,buc
+2004-04-02T03:21:05.080Z,45.669,26.657,133.2,3.9,md,5,123.4,,,us,usp000crg1,2014-11-07T01:21:52.158Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-03-31T23:06:01.600Z,45.485,26.549,114,3.6,md,4,110.5,,,us,usp000crd3,2014-11-07T01:21:49.126Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2004-03-17T23:42:15.180Z,45.436,26.749,100.5,4.5,md,16,73.4,,0.97,us,usp000cq6u,2014-11-07T01:21:43.935Z,"Romania",earthquake,,7.1,,,reviewed,us,buc
+2004-02-07T11:58:22.340Z,45.751,26.644,137.7,4.4,mb,85,46.4,,1.32,us,usp000ckmv,2014-11-07T01:21:18.874Z,"Romania",earthquake,,,,21,reviewed,us,us
+2004-01-21T05:49:11.620Z,45.611,26.546,117.4,4,mb,34,47.5,,1,us,usp000cjct,2014-11-07T01:21:06.505Z,"Romania",earthquake,,5.8,,4,reviewed,us,us
+2004-01-08T12:38:29.610Z,45.839,26.716,103,3.5,md,5,139,,,us,usp000cher,2014-11-07T01:21:00.253Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2003-11-25T23:21:39.630Z,45.392,26.448,130.5,3.7,md,6,101,,,us,usp000cdw8,2014-11-07T01:20:33.538Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2003-11-20T12:59:30.310Z,45.749,26.69,140,3.9,md,8,127.7,,,us,usp000cdg8,2014-11-07T01:20:31.796Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2003-10-05T21:38:17.020Z,45.669,26.333,160.6,4.5,mb,196,30.2,,1.11,us,usp000c9qc,2014-11-07T01:20:08.786Z,"Romania",earthquake,,2.6,,80,reviewed,us,us
+2003-09-16T09:25:15.760Z,45.666,26.654,86.8,4,md,16,123.5,,,us,usp000c7pw,2014-11-07T01:19:49.949Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2003-08-26T07:17:13.230Z,44.345,21.13,10,3.7,ml,30,118.6,,0.54,us,usp000c5ym,2014-11-07T01:19:35.464Z,"Serbia",earthquake,,,,,reviewed,us,pdg
+2003-06-19T18:02:42.800Z,45.006,23.003,33,3.3,ml,14,163.8,,0.64,us,usp000c08u,2014-11-07T01:18:57.632Z,"Romania",earthquake,,,,,reviewed,us,bud
+2003-04-22T22:01:56.820Z,44.257,21.362,10,2.9,ml,31,137.6,,0.73,us,usp000bvsm,2014-11-07T01:18:24.894Z,"Serbia",earthquake,,,,,reviewed,us,bud
+2003-03-26T06:08:54.410Z,45.485,26.457,135.5,4.1,md,6,115.2,,,us,usp000bthd,2014-11-07T01:18:08.564Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2002-12-30T15:41:35.360Z,45.679,26.565,153.5,4.5,md,26,,,,us,usp000bmr5,2014-11-07T01:17:26.859Z,"Romania",earthquake,,,,,reviewed,buc,buc
+2002-12-15T13:37:42.430Z,45.863,26.745,113.9,3.8,md,10,,,0.8,us,usp000bkrv,2014-11-07T01:17:21.931Z,"Romania",earthquake,,12.7,,,reviewed,us,buc
+2002-11-30T08:15:46.800Z,45.726,26.568,162.5,5,mb,155,,,0.98,us,usp000bjry,2014-11-07T01:17:12.502Z,"Romania",earthquake,,,,62,reviewed,us,us
+2002-11-03T20:30:20.720Z,45.81,26.705,105.6,3.6,mb,22,,,1.21,us,usp000bg0d,2014-11-07T01:16:57.017Z,"Romania",earthquake,,9.9,,1,reviewed,us,us
+2002-09-10T15:09:34.020Z,45.714,26.704,137,3.6,mb,21,,,0.65,us,usp000bbx9,2014-11-07T01:16:29.659Z,"Romania",earthquake,,4.6,,1,reviewed,us,us
+2002-09-06T05:04:01.890Z,45.578,26.414,101.9,3.9,mb,91,,,1.23,us,usp000bbck,2014-11-07T01:16:27.747Z,"Romania",earthquake,,4.3,,14,reviewed,us,us
+2002-08-03T12:40:16.550Z,45.631,26.713,146.2,4,mb,55,,,1.45,us,usp000b988,2014-11-07T01:16:12.630Z,"Romania",earthquake,,4.9,,19,reviewed,us,us
+2002-08-02T09:37:18.220Z,44.711,21.62,10,4.5,mb,133,,,1.12,us,usp000b95w,2014-11-07T01:16:11.310Z,"Serbia-Romania border region",earthquake,,,,11,reviewed,us,us
+2002-07-14T20:18:02.960Z,45.548,26.401,136.1,3.1,mb,17,,,0.6,us,usp000b841,2014-11-07T01:16:04.056Z,"Romania",earthquake,,7.1,,1,reviewed,us,us
+2002-06-22T13:26:44.440Z,44.094,21.303,10,4.1,ml,57,,,1.06,us,usp000b6qn,2014-11-07T01:15:52.593Z,"Serbia",earthquake,,,,,reviewed,us,zag
+2002-06-14T23:49:14.890Z,45.676,26.519,143.6,3.6,mb,33,,,0.86,us,usp000b669,2014-11-07T01:15:50.098Z,"Romania",earthquake,,4.7,,3,reviewed,us,us
+2002-05-24T20:42:26.770Z,44.761,21.611,10,4.7,mb,227,,,1.21,us,usp000b4ww,2017-04-26T18:00:11.959Z,"Serbia-Romania border region",earthquake,,,,66,reviewed,us,us
+2002-05-23T03:25:59.880Z,44.729,21.654,10,3.5,md,35,,,0.79,us,usp000b4tr,2014-11-07T01:15:39.227Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,pdg
+2002-05-03T18:31:59.310Z,45.685,26.291,152.4,4.4,mb,130,,,1.16,us,usp000b3nr,2014-11-07T01:15:33.943Z,"Romania",earthquake,,,,62,reviewed,us,us
+2002-03-16T22:39:07.310Z,45.553,26.558,150.6,3.8,mb,61,,,1.35,us,usp000b0f9,2014-11-07T01:15:10.168Z,"Romania",earthquake,,5,,13,reviewed,us,us
+2001-10-17T13:01:31.280Z,45.628,26.479,91.5,4.4,mb,163,,,1.03,us,usp000ar44,2014-11-07T01:14:00.452Z,"Romania",earthquake,,,,62,reviewed,us,us
+2001-08-01T04:48:54.270Z,45.667,26.584,135.4,3.5,mb,28,,,1.1,us,usp000aknf,2014-11-07T01:13:26.628Z,"Romania",earthquake,,4.9,,1,reviewed,us,us
+2001-07-20T05:09:39.670Z,45.749,26.734,128.6,5.3,mwc,315,,,1.12,us,usp000ajvs,2016-11-09T23:01:37.621Z,"Romania",earthquake,,,,,reviewed,us,hrv
+2001-05-24T17:34:01.020Z,45.688,26.416,141.6,5.2,mwc,333,,,1.08,us,usp000affk,2016-11-09T22:35:53.741Z,"Romania",earthquake,,,,,reviewed,us,hrv
+2001-05-20T03:59:00.610Z,45.571,26.407,152.4,3.6,mb,41,,,1.01,us,usp000af7j,2014-11-07T01:12:49.153Z,"Romania",earthquake,,4.5,,9,reviewed,us,us
+2001-03-28T22:07:44.010Z,45.697,27.018,138.3,3.8,mb,33,,,1.02,us,usp000ac5a,2014-11-07T01:12:26.309Z,"Romania",earthquake,,6.4,,8,reviewed,us,us
+2001-03-04T15:38:45.840Z,45.535,26.246,150,4.6,mb,167,,,1.08,us,usp000aawr,2014-11-07T01:12:18.226Z,"Romania",earthquake,,2.6,,48,reviewed,us,us
+2000-11-30T21:31:23.220Z,45.599,26.401,144.7,4,mb,28,,,0.99,us,usp000a59t,2014-11-07T01:11:35.814Z,"Romania",earthquake,,4.8,,2,reviewed,us,us
+2000-10-05T23:04:11.410Z,45.624,21.241,10,3,ml,10,,,0.95,us,usp000a1au,2014-11-07T01:11:14.166Z,"Romania",earthquake,,,,,reviewed,us,bra
+2000-07-01T20:50:01.070Z,45.721,26.724,70.6,3.7,mb,45,,,1.25,us,usp0009vjc,2014-11-07T01:10:29.517Z,"Romania",earthquake,,6.3,,8,reviewed,us,us
+2000-05-10T04:27:13.580Z,45.742,26.539,133.1,3.9,mb,,,,1.3,us,usp0009sq8,2014-11-07T01:10:06.432Z,"Romania",earthquake,,5,,21,reviewed,us,us
+2000-05-03T01:25:24.430Z,45.171,26.401,100,3.1,mb,,,,0.62,us,usp0009s8v,2014-11-07T01:10:02.193Z,"Romania",earthquake,,,,1,reviewed,us,us
+2000-04-06T00:10:38.780Z,45.743,26.58,132.6,5.2,mwc,,,,1.03,us,usp0009qvs,2016-11-09T22:14:29.863Z,"Romania",earthquake,,,,,reviewed,us,hrv
+2000-03-08T22:11:28.560Z,45.792,26.767,62.6,4.4,mb,,,,1.34,us,usp0009pf0,2014-11-07T01:09:40.227Z,"Romania",earthquake,,,,42,reviewed,us,us
+2000-02-01T07:09:43.960Z,43.844,21.379,10,2.9,m,,,,0.68,us,usp0009mx7,2014-11-07T01:09:24.870Z,"Serbia",earthquake,,,,,reviewed,us,sko
+2000-01-19T23:09:39.070Z,47.993,26.814,33,3.6,mb,,,,1.38,us,usp0009mcx,2014-11-07T01:09:20.814Z,"Romania",earthquake,,,,2,reviewed,us,us
+1999-12-21T03:22:37.550Z,44.975,23.073,33,3.8,mb,,,,1.21,us,usp0009k39,2014-11-07T01:09:10.461Z,"Romania",earthquake,,,,3,reviewed,us,us
+1999-12-20T23:40:22.280Z,43.993,21.058,10,3.6,mb,,,,1.01,us,usp0009k30,2014-11-07T01:09:10.429Z,"Serbia",earthquake,,,,1,reviewed,us,us
+1999-11-14T09:05:58.950Z,45.54,26.244,135.6,4.6,mb,,,,1.08,us,usp0009hkn,2014-11-07T01:08:58.027Z,"Romania",earthquake,,2.5,,48,reviewed,us,us
+1999-11-08T19:22:52.520Z,45.604,26.38,138.4,4.4,mb,,,,1.37,us,usp0009h9b,2014-11-07T01:08:55.986Z,"Romania",earthquake,,4.3,,28,reviewed,us,us
+1999-06-29T20:04:06.240Z,45.658,26.527,124.3,4,mb,,,,1.32,us,usp0009at4,2014-11-07T01:07:58.063Z,"Romania",earthquake,,,,5,reviewed,us,us
+1999-06-20T00:09:07.350Z,45.666,26.554,130.2,3.6,mb,,,,1.37,us,usp0009a6b,2014-11-07T01:07:55.121Z,"Romania",earthquake,,13.3,,1,reviewed,us,us
+1999-04-29T18:44:12.790Z,45.66,26.398,154.2,4,mb,,,,1.17,us,usp0009725,2014-11-07T01:07:31.752Z,"Romania",earthquake,,4.4,,10,reviewed,us,us
+1999-04-28T08:47:55.490Z,45.464,26.183,155.9,5.4,mwc,,,,0.87,us,usp00096zm,2016-11-09T22:24:26.541Z,"Romania",earthquake,,1.8,,,reviewed,us,hrv
+1999-04-04T01:21:12.380Z,45.651,26.502,154.6,3.6,mb,,,,0.91,us,usp00095rt,2014-11-07T01:07:22.657Z,"Romania",earthquake,,6.3,,2,reviewed,us,us
+1999-03-23T09:11:40.530Z,45.717,26.482,167,3.8,mb,,,,0.85,us,usp0009513,2014-11-07T01:07:15.832Z,"Romania",earthquake,,6.4,,2,reviewed,us,us
+1999-03-22T19:25:53.040Z,45.506,26.31,149.1,4.1,mb,,,,1.05,us,usp00094zy,2014-11-07T01:07:15.712Z,"Romania",earthquake,,3.1,,8,reviewed,us,us
+1999-03-17T22:10:43.710Z,45.732,26.481,150,4.4,mb,,,,0.97,us,usp00094ps,2014-11-07T01:07:14.482Z,"Romania",earthquake,,3.9,,5,reviewed,us,us
+1999-01-23T17:01:08.290Z,45.644,26.555,147.1,3.9,mb,,,,1.18,us,usp00091kc,2014-11-07T01:06:50.944Z,"Romania",earthquake,,4.8,,9,reviewed,us,us
+1999-01-04T00:30:35.550Z,48.147,23.01,33,4.1,mb,,,,1.42,us,usp00090kh,2014-11-07T01:06:46.170Z,"Ukraine",earthquake,,,,2,reviewed,us,us
+1998-11-14T11:14:58.160Z,46.138,26.651,150,3.8,mb,,,,1.16,us,usp0008y6c,2014-11-07T01:06:26.989Z,"Romania",earthquake,,,,1,reviewed,us,us
+1998-07-27T15:02:18.510Z,45.624,26.472,140.9,4.4,mb,,,,1,us,usp0008s8r,2014-11-07T01:05:39.046Z,"Romania",earthquake,,3,,18,reviewed,us,us
+1998-07-03T06:14:48.690Z,45.63,26.753,150.1,3.9,mb,,,,0.98,us,usp0008qvu,2014-11-07T01:05:31.626Z,"Romania",earthquake,,5.6,,4,reviewed,us,us
+1998-05-04T16:10:09.550Z,45.698,26.63,156.1,4,mb,,,,1.47,us,usp0008mfa,2014-11-07T01:05:10.262Z,"Romania",earthquake,,5.8,,6,reviewed,us,us
+1998-04-14T01:03:51.580Z,45.708,26.525,150,3.5,mb,,,,0.98,us,usp0008k60,2014-11-07T01:04:59.544Z,"Romania",earthquake,,,,3,reviewed,us,us
+1998-03-13T13:14:37.570Z,45.612,26.299,153.9,5.2,mwc,,,,1.03,us,usp0008he4,2016-11-09T22:04:35.414Z,"Romania",earthquake,,,,,reviewed,us,hrv
+1998-01-19T00:53:50.540Z,45.62,26.602,108.6,4.3,mb,,,,1.07,us,usp0008em9,2014-11-07T01:04:21.174Z,"Romania",earthquake,,4.2,,4,reviewed,us,us
+1997-12-30T04:39:29.020Z,45.578,26.364,135.1,4.7,mb,,,,1.18,us,usp0008ddb,2014-11-07T01:04:11.691Z,"Romania",earthquake,,,,74,reviewed,us,us
+1997-12-18T23:21:20.440Z,45.59,26.266,144.1,3.9,mb,,,,1.05,us,usp0008cw7,2014-11-07T01:04:08.667Z,"Romania",earthquake,,4.6,,4,reviewed,us,us
+1997-12-06T12:17:23.670Z,45.675,27.092,33,4.2,mb,,,,1.32,us,usp0008c2j,2014-11-07T01:04:05.273Z,"Romania",earthquake,,,,2,reviewed,us,us
+1997-11-18T11:23:15.680Z,45.718,26.734,117.9,4.5,mb,,,,1.21,us,usp0008aw0,2014-11-07T01:03:55.491Z,"Romania",earthquake,,,,34,reviewed,us,us
+1997-10-11T18:59:59.880Z,45.753,26.708,118.7,4.3,mb,,,,1.2,us,usp00088vx,2014-11-07T01:03:41.171Z,"Romania",earthquake,,4,,16,reviewed,us,us
+1997-07-14T00:37:23.080Z,45.866,26.675,139.9,3.6,mb,,,,1.42,us,usp00084u6,2014-11-07T01:03:08.426Z,"Romania",earthquake,,5.9,,7,reviewed,us,us
+1997-03-01T19:26:05.410Z,45.779,26.602,114.6,4,mb,,,,0.94,us,usp0007y3e,2014-11-07T01:02:15.211Z,"Romania",earthquake,,4.3,,2,reviewed,us,us
+1997-01-01T01:44:02.310Z,45.664,26.577,141.4,3.6,mb,,,,0.66,us,usp0007v97,2014-11-07T01:01:52.814Z,"Romania",earthquake,,7.2,,1,reviewed,us,us
+1996-09-27T22:27:47.680Z,45.742,26.719,128.1,3.8,mb,,,,0.59,us,usp0007qk9,2014-11-07T01:01:13.806Z,"Romania",earthquake,,3.9,,4,reviewed,us,us
+1996-09-26T20:29:34.530Z,44.115,21.017,10,4.5,mb,,,,1.25,us,usp0007qhg,2014-11-07T01:01:13.442Z,"Serbia",earthquake,,,,1,reviewed,us,us
+1996-08-14T12:36:10.970Z,45.966,26.627,129,4,mb,,,,1.5,us,usp0007njr,2014-11-07T01:00:58.955Z,"Romania",earthquake,,,,30,reviewed,us,us
+1996-06-26T10:10:09.450Z,45.524,26.346,125,3.7,mb,,,,1.2,us,usp0007ka5,2014-11-07T01:00:40.779Z,"Romania",earthquake,,5.6,,7,reviewed,us,us
+1996-06-11T21:45:06.270Z,45.74,27.234,38.4,4,mb,,,,1.2,us,usp0007jme,2014-11-07T01:00:37.223Z,"Romania",earthquake,,8.7,,8,reviewed,us,us
+1996-06-07T05:09:22.210Z,45.511,26.371,134.6,4.3,mb,,,,1.2,us,usp0007j8y,2014-11-07T01:00:34.966Z,"Romania",earthquake,,3.3,,45,reviewed,us,us
+1996-04-19T06:50:55.550Z,45.695,26.544,145.1,3.7,mb,,,,1,us,usp0007gbv,2014-11-07T01:00:18.119Z,"Romania",earthquake,,4.1,,11,reviewed,us,us
+1996-03-24T09:13:28.030Z,45.623,21.023,22.6,4.8,mb,,,,1.1,us,usp0007f75,2014-11-07T01:00:08.274Z,"Romania",earthquake,,9,,2,reviewed,us,us
+1996-03-02T15:42:00.910Z,45.553,26.362,144.7,3.6,mb,,,,0.9,us,usp0007e8g,2014-11-07T01:00:02.524Z,"Romania",earthquake,,4.8,,2,reviewed,us,us
+1996-02-03T07:07:27.470Z,45.798,26.907,100,3.1,mb,,,,0.8,us,usp0007c7b,2014-11-07T00:59:49.367Z,"Romania",earthquake,,,,1,reviewed,us,us
+1996-01-30T04:36:59.470Z,45.631,26.63,96.8,4.3,mb,,,,0.7,us,usp0007bzh,2014-11-07T00:59:44.676Z,"Romania",earthquake,,3.4,,8,reviewed,us,us
+1995-11-28T08:16:05.830Z,45.215,24.225,23,3.7,ml,,,,1.1,us,usp00077p7,2014-11-07T00:59:14.463Z,"Romania",earthquake,,4,,,reviewed,us,ttg
+1995-11-27T16:03:13.390Z,45.628,26.76,113.3,4.9,mb,,,,0.7,us,usp00077n0,2014-11-07T00:59:14.350Z,"Romania",earthquake,,16.7,,1,reviewed,us,us
+1995-10-25T11:44:22.650Z,45.48,26,105,4.3,mb,,,,1,us,usp00075rg,2014-11-07T00:59:00.749Z,"Romania",earthquake,,23.1,,1,reviewed,us,us
+1995-10-16T21:13:03.880Z,47.489,25.177,10,3.7,mb,,,,1,us,usp000758z,2014-11-07T00:58:58.191Z,"Romania",earthquake,,,,1,reviewed,us,us
+1995-09-06T10:58:44.490Z,45.553,26.39,125.9,4.3,mb,,,,0.7,us,usp00072zt,2014-11-07T00:58:41.618Z,"Romania",earthquake,,3.3,,48,reviewed,us,us
+1995-08-24T15:14:36.540Z,45.468,21.071,62.8,4.4,mb,,,,1,us,usp00072c3,2014-11-07T00:58:35.178Z,"Romania",earthquake,,9.5,,2,reviewed,us,us
+1995-08-20T01:43:49.240Z,45.185,28.135,33,3.7,mb,,,,1.5,us,usp000724n,2014-11-07T00:58:33.922Z,"Ukraine-Romania-Moldova border region",earthquake,,,,17,reviewed,us,us
+1995-06-25T20:24:29.070Z,45.728,26.875,91.5,3.6,mb,,,,1,us,usp0006zpt,2014-11-07T00:58:11.717Z,"Romania",earthquake,,6.6,,4,reviewed,us,us
+1995-03-30T21:21:53.920Z,45.551,26.404,129.2,4.2,mb,,,,0.7,us,usp0006uy8,2014-11-07T00:57:34.442Z,"Romania",earthquake,,4.3,,8,reviewed,us,us
+1995-03-14T18:31:15.470Z,45.75,26.652,92.8,3.9,mb,,,,1.1,us,usp0006u6n,2014-11-07T00:57:30.846Z,"Romania",earthquake,,7.6,,3,reviewed,us,us
+1995-03-09T20:44:45.930Z,45.714,26.487,147.6,3.7,mb,,,,1,us,usp0006tzr,2014-11-07T00:57:29.467Z,"Romania",earthquake,,6.4,,9,reviewed,us,us
+1995-02-12T06:05:54.850Z,45.521,21.007,10,3.5,ml,,,,0.9,us,usp0006sst,2014-11-07T00:57:19.006Z,"Romania",earthquake,,,,,reviewed,us,ttg
+1995-01-28T07:31:58.130Z,45.547,25.101,25.3,3.8,mb,,,,1.2,us,usp0006s07,2014-11-07T00:57:11.847Z,"Romania",earthquake,,9.5,,1,reviewed,us,us
+1994-12-16T05:45:09.950Z,44.106,21.348,10,4.3,mb,,,,1.1,us,usp0006q3h,2014-11-07T00:56:58.240Z,"Serbia",earthquake,,,,1,reviewed,us,us
+1994-11-12T19:34:39.250Z,45.541,21.008,10,4.1,ml,,,,1.1,us,usp0006nfe,2014-11-07T00:56:46.794Z,"Romania",earthquake,,,,,reviewed,us,ttg
+1994-10-23T19:23:08.210Z,45.561,26.487,155.7,3.3,mb,,,,0.7,us,usp0006mkq,2014-11-07T00:56:33.163Z,"Romania",earthquake,,11.5,,1,reviewed,us,us
+1994-10-23T12:38:54.630Z,45.609,26.488,157.2,3.2,mb,,,,0.7,us,usp0006mkd,2014-11-07T00:56:33.129Z,"Romania",earthquake,,11.4,,1,reviewed,us,us
+1994-10-18T09:00:07.040Z,45.536,26.399,160.8,4.2,mb,,,,1,us,usp0006m9x,2014-11-07T00:56:31.830Z,"Romania",earthquake,,4.5,,16,reviewed,us,us
+1994-10-15T01:42:51.220Z,45.475,21.015,10,4.2,ml,,,,1.4,us,usp0006m4r,2014-11-07T00:56:31.199Z,"Romania",earthquake,,,,,reviewed,us,ttg
+1994-10-13T23:31:27.510Z,45.493,21.004,10,4.7,mb,,,,1.2,us,usp0006m2y,2014-11-07T00:56:31.006Z,"Romania",earthquake,,,,4,reviewed,us,us
+1994-10-13T13:49:28.800Z,45.554,21.192,23,4.1,md,,,,1.5,us,usp0006m26,2014-11-07T00:56:30.922Z,"Romania",earthquake,,6.6,,,reviewed,us,ttg
+1994-09-29T21:29:24.490Z,45.511,26.988,52.4,3,mb,,,,1.1,us,usp0006k6p,2014-11-07T00:56:21.594Z,"Romania",earthquake,,10.2,,1,reviewed,us,us
+1994-09-06T20:11:40.820Z,45.526,26.565,134.6,3.8,mb,,,,1.4,us,usp0006j1u,2014-11-07T00:56:14.176Z,"Romania",earthquake,,6.2,,16,reviewed,us,us
+1994-08-10T11:06:06.510Z,47.314,23.952,57.8,3.1,mb,,,,0.7,us,usp0006gsr,2014-11-07T00:56:01.639Z,"Romania",earthquake,,15.7,,1,reviewed,us,us
+1994-08-09T07:52:57.170Z,45.513,26.332,163,3.6,mb,,,,0.9,us,usp0006gr5,2014-11-07T00:56:01.462Z,"Romania",earthquake,,5.3,,1,reviewed,us,us
+1994-06-06T07:29:08.180Z,45.685,26.642,133.6,4.7,mb,,,,1.1,us,usp0006du0,2014-11-07T00:55:39.642Z,"Romania",earthquake,,3.3,,41,reviewed,us,us
+1994-04-08T04:25:03.690Z,45.504,26.339,140.6,3.1,mb,,,,0.6,us,usp0006atd,2014-11-07T00:55:16.983Z,"Romania",earthquake,,9.1,,1,reviewed,us,us
+1994-03-05T12:57:25.530Z,45.026,28.861,33,3.1,mb,,,,1.5,us,usp000699n,2014-11-07T00:55:06.812Z,"Ukraine-Romania-Moldova border region",earthquake,,,,1,reviewed,us,us
+1994-03-04T22:21:34.130Z,45.614,26.748,149.2,3.3,mb,,,,1.1,us,usp000698t,2014-11-07T00:55:06.599Z,"Romania",earthquake,,7.3,,3,reviewed,us,us
+1994-02-27T19:28:59.510Z,45.754,26.753,130,3.8,mb,,,,0.9,us,usp0006928,2014-11-07T00:55:01.900Z,"Romania",earthquake,,4.6,,7,reviewed,us,us
+1994-02-19T12:27:19.910Z,45.604,26.385,166.7,4.1,mb,,,,1,us,usp00068r0,2014-11-07T00:55:00.222Z,"Romania",earthquake,,4.9,,13,reviewed,us,us
+1993-12-11T02:09:50.670Z,45.719,26.664,147,3.6,mb,,,,0.9,us,usp00064z4,2014-11-07T00:54:35.181Z,"Romania",earthquake,,6.8,,2,reviewed,us,us
+1993-11-04T10:52:50.380Z,45.692,26.62,132.8,4.2,mb,,,,1.2,us,usp000635t,2014-11-07T00:54:21.343Z,"Romania",earthquake,,4.3,,18,reviewed,us,us
+1993-09-29T00:03:43.440Z,44.323,27.059,10,4.1,md,,,,1,us,usp000616q,2014-11-07T00:54:03.386Z,"Romania",earthquake,,,,,reviewed,us,buc
+1993-09-21T19:26:58.620Z,45.776,26.53,31.8,3.2,mb,,,,1.1,us,usp00060tb,2014-11-07T00:54:01.025Z,"Romania",earthquake,,6.3,,2,reviewed,us,us
+1993-09-18T08:04:07.560Z,45.66,26.677,179.1,3.2,mb,,,,0.6,us,usp00060jz,2014-11-07T00:53:59.010Z,"Romania",earthquake,,11,,1,reviewed,us,us
+1993-09-03T03:42:31.970Z,45.519,26.636,109.7,4.1,mb,,,,0.9,us,usp0005znt,2014-11-07T00:53:54.142Z,"Romania",earthquake,,11.1,,2,reviewed,us,us
+1993-08-26T21:32:33.310Z,45.727,26.565,135.5,5,mb,,,,1.2,us,usp0005z9k,2014-11-07T00:53:49.038Z,"Romania",earthquake,,,,89,reviewed,us,us
+1993-07-30T14:25:51.920Z,45.684,26.568,148.4,4.7,mb,,,,1,us,usp0005xph,2014-11-07T00:53:34.750Z,"Romania",earthquake,,2.8,,55,reviewed,us,us
+1993-05-23T19:24:14.440Z,45.332,25.383,24.2,2.8,mb,,,,1.2,us,usp0005tbx,2014-11-07T00:53:03.718Z,"Romania",earthquake,,7.3,,1,reviewed,us,us
+1993-05-23T17:19:23.650Z,45.365,25.512,22.1,4.7,mb,,,,1.2,us,usp0005tbt,2014-11-07T00:53:03.689Z,"Romania",earthquake,,3.3,,61,reviewed,us,us
+1993-05-07T11:47:01.250Z,45.738,25.124,14.4,3.6,mb,,,,1.5,us,usp0005sca,2014-11-07T00:52:58.434Z,"Romania",earthquake,,6.6,,1,reviewed,us,us
+1993-05-06T22:43:27.430Z,45.486,26.217,160.2,3.5,mb,,,,0.7,us,usp0005sbe,2014-11-07T00:52:58.288Z,"Romania",earthquake,,5.5,,4,reviewed,us,us
+1993-04-18T02:03:21.370Z,45.508,26.336,143.4,3.7,mb,,,,0.7,us,usp0005rbr,2014-11-07T00:52:50.007Z,"Romania",earthquake,,6.9,,1,reviewed,us,us
+1993-03-17T03:14:53.400Z,45.769,26.639,94.5,3.6,mb,,,,0.9,us,usp0005pnb,2014-11-07T00:52:36.033Z,"Romania",earthquake,,5.7,,2,reviewed,us,us
+1993-03-16T07:22:26.860Z,44.134,21.844,10,2.7,ml,,,,1.2,us,usp0005pkm,2014-11-07T00:52:35.804Z,"Serbia",earthquake,,,,,reviewed,us,ttg
+1993-03-09T14:17:05.860Z,45.616,26.392,152.1,4.2,mb,,,,1,us,usp0005p7g,2014-11-07T00:52:34.101Z,"Romania",earthquake,,3.7,,7,reviewed,us,us
+1993-01-21T15:01:06.870Z,45.608,26.585,156.4,3.9,mb,,,,1,us,usp0005m21,2014-11-07T00:52:16.013Z,"Romania",earthquake,,8.1,,2,reviewed,us,us
+1992-12-23T21:05:14.460Z,45.555,21.031,35.2,3.6,ml,,,,1.3,us,usp0005jra,2014-11-07T00:52:04.723Z,"Romania",earthquake,,19.2,,,reviewed,us,ttg
+1992-12-15T10:25:53.740Z,45.465,26.29,146.4,4.3,mb,,,,1.2,us,usp0005jat,2014-11-07T00:52:02.781Z,"Romania",earthquake,,3.8,,28,reviewed,us,us
+1992-12-09T23:43:36.990Z,45.602,26.773,142.6,4.1,mb,,,,1.1,us,usp0005j1p,2014-11-07T00:52:01.624Z,"Romania",earthquake,,4.7,,13,reviewed,us,us
+1992-11-21T12:55:49.080Z,45.671,26.656,136.7,5.2,mb,,,,1,us,usp0005h55,2014-11-07T00:51:53.595Z,"Romania",earthquake,,2.3,,70,reviewed,us,us
+1992-11-11T14:06:19.430Z,45.659,26.513,141.7,4.4,mb,,,,1.1,us,usp0005gq5,2014-11-07T00:51:51.298Z,"Romania",earthquake,,,,21,reviewed,us,us
+1992-11-10T01:17:17.250Z,45.636,26.465,152.3,4.4,mb,,,,1.1,us,usp0005gm9,2014-11-07T00:51:50.841Z,"Romania",earthquake,,3.4,,20,reviewed,us,us
+1992-10-23T09:21:11.730Z,45.797,26.734,69.8,4.8,mb,,,,1.1,us,usp0005fs1,2014-11-07T00:51:42.524Z,"Romania",earthquake,,4.4,,57,reviewed,us,us
+1992-10-12T19:33:42.780Z,45.552,26.468,103.4,4.7,mb,,,,1.2,us,usp0005f8m,2014-11-07T00:51:39.621Z,"Romania",earthquake,,3.6,,68,reviewed,us,us
+1992-08-17T00:08:53.910Z,45.571,26.536,107.2,4.9,mb,,,,1.1,us,usp0005ck0,2014-11-07T00:51:16.562Z,"Romania",earthquake,,,,30,reviewed,us,us
+1992-07-15T17:42:59.060Z,45.544,26.406,142.4,3.7,mb,,,,1.3,us,usp0005awg,2014-11-07T00:51:04.335Z,"Romania",earthquake,,12.2,,2,reviewed,us,us
+1992-07-12T20:23:14.120Z,45.672,27.122,45.9,3.7,mb,,,,1.4,us,usp0005ark,2014-11-07T00:51:03.516Z,"Romania",earthquake,,10.4,,7,reviewed,us,us
+1992-07-09T19:55:52.930Z,46.608,27.967,33,3.3,mb,,,,1.3,us,usp0005ak8,2014-11-07T00:51:02.566Z,"Romania",earthquake,,,,2,reviewed,us,us
+1992-06-02T12:12:15.620Z,45.743,26.763,113.2,4.1,mb,,,,0.9,us,usp00058jw,2014-11-07T00:50:46.458Z,"Romania",earthquake,,4.9,,9,reviewed,us,us
+1992-05-03T13:10:00.690Z,45.548,26.404,156.3,3.9,mb,,,,1,us,usp00056v6,2014-11-07T00:50:34.406Z,"Romania",earthquake,,4.1,,15,reviewed,us,us
+1992-04-23T16:44:54.080Z,45.557,26.541,149.1,4.3,mb,,,,1.1,us,usp000568w,2014-11-07T00:50:29.128Z,"Romania",earthquake,,3.4,,32,reviewed,us,us
+1992-04-09T08:02:50.470Z,45.798,26.85,103.9,4.2,md,,,,0.8,us,usp00055hu,2014-11-07T00:50:25.920Z,"Romania",earthquake,,7.3,,,reviewed,us,the
+1992-03-31T15:04:38.790Z,45.689,26.564,145.2,4.7,mb,,,,1.1,us,usp000554j,2014-11-07T00:50:20.437Z,"Romania",earthquake,,2.9,,52,reviewed,us,us
+1992-03-02T20:33:21.360Z,45.952,21.63,25.6,4.6,mb,,,,0.9,us,usp00053sg,2014-11-07T00:50:12.826Z,"Romania",earthquake,,3.3,,7,reviewed,us,us
+1992-02-12T01:18:29.970Z,44.475,22.296,10,2.9,m,,,,1.4,us,usp00052yc,2014-11-07T00:50:05.460Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-12-26T03:13:14.620Z,45.34,21.301,10,3.2,m,,,,0.3,us,usp00050z9,2014-11-07T00:49:47.244Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-12-21T11:43:06.990Z,45.832,21.32,10,3.6,mb,,,,1.1,us,usp00050ra,2014-11-07T00:49:46.219Z,"Romania",earthquake,,,,1,reviewed,us,us
+1991-12-19T03:12:22.260Z,45.907,21.569,10,4.3,mb,,,,1,us,usp00050n1,2014-11-07T00:49:45.375Z,"Romania",earthquake,,,,5,reviewed,us,us
+1991-12-18T10:24:12.100Z,45.92,21.656,10,3.9,mb,,,,1.3,us,usp00050m8,2014-11-07T00:49:45.227Z,"Romania",earthquake,,,,1,reviewed,us,us
+1991-12-17T06:22:37.960Z,45.484,21.105,10,3.4,m,,,,1,us,usp00050k5,2014-11-07T00:49:45.070Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-12-13T12:02:04.940Z,45.554,21.097,10,3.3,m,,,,1.2,us,usp00050cg,2014-11-07T00:49:43.980Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-12-12T09:27:23.840Z,45.438,21.165,10,2.8,m,,,,1.7,us,usp00050at,2014-11-07T00:49:43.609Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-12-09T04:39:35.670Z,45.553,26.209,165.7,4.1,mb,,,,1.2,us,usp0005074,2014-11-07T00:49:43.157Z,"Romania",earthquake,,5,,17,reviewed,us,us
+1991-12-02T10:52:35.950Z,45.439,21.061,10,3.2,ml,,,,1.1,us,usp0004zy2,2014-11-07T00:49:40.742Z,"Romania",earthquake,,,,,reviewed,us,sko
+1991-12-02T08:49:40.280Z,45.498,21.115,9,5.5,mw,,,,1.1,us,usp0004zxr,2017-04-26T17:46:15.505Z,"Romania",earthquake,,1.9,,,reviewed,us,hrv
+1991-11-23T23:36:36.680Z,45.366,21.016,10,3,m,,,,0.7,us,usp0004zhw,2014-11-07T00:49:36.022Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-11-21T10:12:05.990Z,45.293,21.235,10,3,ml,,,,0.7,us,usp0004zdx,2014-11-07T00:49:35.649Z,"Romania",earthquake,,,,,reviewed,us,ldg
+1991-11-21T02:16:31.790Z,45.491,21.176,26.9,4.4,md,,,,1.2,us,usp0004zdj,2014-11-07T00:49:35.617Z,"Romania",earthquake,,4.7,,,reviewed,us,tri
+1991-11-18T12:48:45.240Z,44.282,21.409,5,3.2,ml,,,,1.1,us,usp0004za5,2014-11-07T00:49:35.221Z,"Serbia",earthquake,,,,,reviewed,us,ttg
+1991-11-15T14:05:26.620Z,45.158,21.439,10,3,m,,,,1.5,us,usp0004z6d,2014-11-07T00:49:34.841Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-11-04T15:45:02.160Z,44.242,21.42,10,3.4,m,,,,1.3,us,usp0004ytg,2014-11-07T00:49:32.330Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-10-28T02:34:56.470Z,44.16,21.277,10,3,m,,,,1.2,us,usp0004ygm,2014-11-07T00:49:28.078Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-10-28T00:21:32.460Z,44.265,21.456,67.1,4.8,mb,,,,1.1,us,usp0004ygg,2014-11-07T00:49:28.041Z,"Serbia",earthquake,,7,,23,reviewed,us,us
+1991-10-24T16:38:42.990Z,45.355,21.256,33,3.3,m,,,,1.2,us,usp0004yab,2014-11-07T00:49:27.155Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-10-17T15:02:14.150Z,45.382,21.167,10,3.4,m,,,,1.7,us,usp0004xxz,2014-11-07T00:49:24.723Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-10-17T14:37:51.460Z,45.234,21.108,10,3.5,m,,,,0.8,us,usp0004xxy,2014-11-07T00:49:24.720Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-10-14T20:56:13.580Z,45.452,21.129,10.6,4,m,,,,1.2,us,usp0004xu9,2014-11-07T00:49:24.030Z,"Romania",earthquake,,4,,,reviewed,us,beo
+1991-10-08T08:51:46.980Z,45.477,21.151,25,3.7,m,,,,0.9,us,usp0004xhx,2014-11-07T00:49:22.833Z,"Romania",earthquake,,5,,,reviewed,us,beo
+1991-09-29T21:40:16.930Z,45.48,26.426,135,4.4,mb,,,,0.9,us,usp0004x7b,2014-11-07T00:49:18.137Z,"Romania",earthquake,,4.6,,2,reviewed,us,us
+1991-09-25T11:30:07.110Z,45.26,21.185,33,3.3,m,,,,0.8,us,usp0004x14,2014-11-07T00:49:17.363Z,"Serbia",earthquake,,,,,reviewed,us,buc
+1991-09-18T07:45:18.750Z,45.515,21.018,10,3.4,m,,,,1.1,us,usp0004wrr,2014-11-07T00:49:15.725Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-09-17T03:02:01.380Z,44.541,22.42,12.9,3.8,m,,,,1.2,us,usp0004wqj,2014-11-07T00:49:15.536Z,"Serbia",earthquake,,2.7,,,reviewed,us,beo
+1991-09-15T18:26:27.510Z,44.822,22.417,10,3.5,m,,,,1.1,us,usp0004wp3,2014-11-07T00:49:15.320Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,beo
+1991-09-13T12:12:46.090Z,45.358,21.283,10,3.2,m,,,,1,us,usp0004wkb,2014-11-07T00:49:14.998Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-09-13T07:08:16.670Z,44.881,22.298,10,3.2,m,,,,1.2,us,usp0004wk4,2014-11-07T00:49:14.988Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,beo
+1991-09-11T22:10:11.580Z,45.288,21.003,10,3.2,m,,,,1.5,us,usp0004whs,2014-11-07T00:49:14.857Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-09-07T07:28:50.290Z,45.507,20.987,10,3.5,m,,,,0.8,us,usp0004wbz,2014-11-07T00:49:14.054Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,beo
+1991-09-04T18:13:15.780Z,44.848,22.319,33,3.3,m,,,,1.4,us,usp0004w8m,2014-11-07T00:49:13.391Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,beo
+1991-09-01T18:37:20.220Z,45.583,26.777,10,3,mb,,,,1.3,us,usp0004w4r,2014-11-07T00:49:11.697Z,"Romania",earthquake,,,,1,reviewed,us,us
+1991-09-01T13:21:31.550Z,45.406,26.842,27.9,3,mb,,,,1.5,us,usp0004w4h,2014-11-07T00:49:11.622Z,"Romania",earthquake,,8.6,,1,reviewed,us,us
+1991-09-01T03:39:51.320Z,45.504,26.951,51.9,3.9,mb,,,,1.1,us,usp0004w3y,2014-11-07T00:49:11.000Z,"Romania",earthquake,,7.1,,10,reviewed,us,us
+1991-09-01T02:17:58.050Z,45.664,27.077,33,3.4,mb,,,,1,us,usp0004w3v,2014-11-07T00:49:10.951Z,"Romania",earthquake,,,,2,reviewed,us,us
+1991-09-01T01:16:03.250Z,45.474,26.916,34.6,4.8,ms,,,,1.2,us,usp0004w3t,2014-11-07T00:49:10.673Z,"Romania",earthquake,,4.3,,4,reviewed,us,us
+1991-08-31T22:43:18.490Z,45.471,26.761,33,2.7,mb,,,,1.2,us,usp0004w3j,2014-11-07T00:49:09.211Z,"Romania",earthquake,,,,1,reviewed,us,us
+1991-08-26T18:23:42.970Z,45.069,21.165,33,2.9,m,,,,0.9,us,usp0004vwr,2014-11-07T00:49:07.900Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1991-08-18T23:01:44.400Z,45.459,20.978,10,3,ml,,,,0.8,us,usp0004vjt,2014-11-07T00:49:06.722Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,vka
+1991-08-15T01:34:33.650Z,45.485,21.286,10,4.5,md,,,,1.2,us,usp0004vc8,2014-11-07T00:49:05.433Z,"Romania",earthquake,,,,,reviewed,us,tri
+1991-08-14T23:36:00.780Z,45.478,21.158,10,4.7,mb,,,,1.4,us,usp0004vc5,2014-11-07T00:49:05.412Z,"Romania",earthquake,,,,6,reviewed,us,us
+1991-08-12T04:59:39.270Z,45.467,21.153,10,4.2,mb,,,,1.2,us,usp0004v8m,2014-11-07T00:49:04.794Z,"Romania",earthquake,,,,4,reviewed,us,us
+1991-08-11T21:25:49.760Z,45.432,21.135,10,3.3,ml,,,,1.3,us,usp0004v8a,2014-11-07T00:49:04.772Z,"Romania",earthquake,,,,,reviewed,us,vka
+1991-08-11T01:57:24.240Z,45.473,26.421,120,4.1,md,,,,1.2,us,usp0004v7a,2014-11-07T00:49:04.672Z,"Romania",earthquake,,,,,reviewed,us,buc
+1991-08-08T19:01:58.510Z,45.579,26.502,136.8,4,md,,,,1.1,us,usp0004v4h,2014-11-07T00:49:04.231Z,"Romania",earthquake,,23.9,,,reviewed,us,buc
+1991-08-07T19:24:01.910Z,45.308,21.051,25.4,3.8,ml,,,,1,us,usp0004v3b,2014-11-07T00:49:03.935Z,"Serbia",earthquake,,3.7,,,reviewed,us,ttg
+1991-08-07T09:17:37.070Z,46.065,27.105,25.7,3.6,md,,,,0.9,us,usp0004v2w,2014-11-07T00:49:03.880Z,"Romania",earthquake,,5.1,,,reviewed,us,buc
+1991-08-07T07:08:18.310Z,45.594,26.679,139.6,3.6,md,,,,1.2,us,usp0004v2v,2014-11-07T00:49:03.878Z,"Romania",earthquake,,38.9,,,reviewed,us,buc
+1991-08-06T15:04:46.180Z,45.403,21.069,11.2,4.1,ml,,,,1.1,us,usp0004v28,2014-11-07T00:49:03.729Z,"Romania",earthquake,,2.9,,,reviewed,us,zag
+1991-08-02T00:51:04.790Z,45.262,21.087,25.9,4.7,md,,,,1.2,us,usp0004uwe,2014-11-07T00:49:01.833Z,"Serbia",earthquake,,5.3,,,reviewed,us,tri
+1991-08-01T12:57:24.390Z,45.447,21.069,19.3,3.7,m,,,,0.8,us,usp0004uvt,2014-11-07T00:49:01.526Z,"Romania",earthquake,,8.8,,,reviewed,us,beo
+1991-07-31T11:22:53.850Z,45.335,21.138,34.5,4.3,ml,,,,1,us,usp0004uu3,2014-11-07T00:48:59.510Z,"Romania",earthquake,,14.3,,,reviewed,us,zag
+1991-07-22T01:12:51.640Z,45.469,21.088,10,3.2,m,,,,0.9,us,usp0004ufh,2014-11-07T00:48:56.435Z,"Romania",earthquake,,,,,reviewed,us,beo
+1991-07-20T03:58:47.410Z,45.346,21.108,10,4.1,mb,,,,1,us,usp0004ud5,2014-11-07T00:48:56.107Z,"Romania",earthquake,,,,2,reviewed,us,us
+1991-07-20T03:36:29.880Z,45.375,21.24,10,3.8,mb,,,,1.2,us,usp0004ud2,2014-11-07T00:48:56.093Z,"Romania",earthquake,,,,2,reviewed,us,us
+1991-07-19T05:24:20.110Z,45.315,21.104,10,2.9,ml,,,,1,us,usp0004ubs,2014-11-07T00:48:55.969Z,"Romania",earthquake,,,,,reviewed,us,sko
+1991-07-19T02:43:21.230Z,45.273,21.113,10,3.8,ml,,,,1.5,us,usp0004ubj,2014-11-07T00:48:55.954Z,"Serbia",earthquake,,,,,reviewed,us,zag
+1991-07-19T01:27:32.060Z,45.312,21.053,10,5.1,mw,,,,1.2,us,usp0004ubf,2016-11-09T23:01:29.441Z,"Serbia",earthquake,,,,,reviewed,us,hrv
+1991-07-19T01:19:52.470Z,45.344,21.123,10,4.4,mb,,,,1.1,us,usp0004ube,2014-11-07T00:48:55.916Z,"Romania",earthquake,,,,5,reviewed,us,us
+1991-07-18T17:38:50.570Z,45.776,26.501,150.4,3.4,mb,,,,1.6,us,usp0004uaz,2014-11-07T00:48:55.874Z,"Romania",earthquake,,12.5,,1,reviewed,us,us
+1991-07-18T11:56:30.650Z,44.888,22.407,11.6,5.6,mw,,,,1.2,us,usp0004uaj,2017-04-26T17:45:53.941Z,"Serbia-Romania border region",earthquake,,,,,reviewed,us,hrv
+1991-07-14T23:59:31.360Z,45.431,21.129,10,4.1,ml,,,,1,us,usp0004u6d,2014-11-07T00:48:55.164Z,"Romania",earthquake,,,,,reviewed,us,zag
+1991-07-14T17:03:26.350Z,45.404,21.076,10,3.3,mb,,,,1,us,usp0004u61,2014-11-07T00:48:55.130Z,"Romania",earthquake,,,,1,reviewed,us,us
+1991-07-13T17:56:57.560Z,45.358,21.137,10,3.5,ml,,,,1.1,us,usp0004u4k,2014-11-07T00:48:54.936Z,"Romania",earthquake,,,,,reviewed,us,ttg
+1991-07-13T17:27:33.740Z,45.403,21.241,10,4,mb,,,,1.1,us,usp0004u4h,2014-11-07T00:48:54.899Z,"Romania",earthquake,,,,5,reviewed,us,us
+1991-07-12T16:29:08.300Z,45.446,21.167,10,4.1,mb,,,,1.1,us,usp0004u2c,2014-11-07T00:48:54.389Z,"Romania",earthquake,,,,2,reviewed,us,us
+1991-07-12T10:42:21.210Z,45.364,21.057,10.7,5.6,mw,,,,1.3,us,usp0004u1p,2017-04-26T17:45:52.477Z,"Romania",earthquake,,,,,reviewed,us,hrv
+1991-07-02T17:16:48.700Z,45.789,26.706,118.7,3.7,mb,,,,1,us,usp0004tpw,2014-11-07T00:48:51.089Z,"Romania",earthquake,,7,,1,reviewed,us,us
+1991-06-05T01:18:23.450Z,45.553,26.428,150.2,3.3,mb,,,,1,us,usp0004she,2014-11-07T00:48:42.355Z,"Romania",earthquake,,6.3,,1,reviewed,us,us
+1991-05-25T12:11:47.290Z,45.77,26.77,93.7,3.5,mb,,,,0.9,us,usp0004s2d,2014-11-07T00:48:37.380Z,"Romania",earthquake,,6.9,,2,reviewed,us,us
+1991-05-20T15:08:43.430Z,45.465,26.212,145.9,3.3,mb,,,,0.8,us,usp0004rw5,2014-11-07T00:48:36.176Z,"Romania",earthquake,,7.1,,1,reviewed,us,us
+1991-05-19T23:27:30.030Z,45.819,26.826,107.9,3.7,mb,,,,0.9,us,usp0004rvc,2014-11-07T00:48:36.097Z,"Romania",earthquake,,8.3,,1,reviewed,us,us
+1991-04-30T18:00:07.400Z,45.559,26.449,159,3.4,mb,,,,1,us,usp0004r2a,2014-11-07T00:48:28.602Z,"Romania",earthquake,,8.1,,1,reviewed,us,us
+1991-04-29T12:17:50.800Z,45.677,26.596,171,3.4,mb,,,,0.8,us,usp0004qzs,2014-11-07T00:48:28.108Z,"Romania",earthquake,,6,,1,reviewed,us,us
+1991-04-28T21:24:26.560Z,45.653,26.319,165.9,4.1,mb,,,,1,us,usp0004qyp,2014-11-07T00:48:27.903Z,"Romania",earthquake,,4,,26,reviewed,us,us
+1991-04-01T10:10:32.200Z,45.669,26.499,174.4,3.6,mb,,,,0.8,us,usp0004ptz,2014-11-07T00:48:17.954Z,"Romania",earthquake,,5.2,,3,reviewed,us,us
+1991-02-28T06:49:02.870Z,45.847,26.768,105.6,3.9,mb,,,,1.5,us,usp0004ngt,2014-11-07T00:48:05.647Z,"Romania",earthquake,,15.1,,2,reviewed,us,us
+1991-01-31T13:29:12.350Z,45.68,26.635,132.5,4.8,mb,,,,1.2,us,usp0004md5,2014-11-07T00:47:53.892Z,"Romania",earthquake,,3.2,,60,reviewed,us,us
+1991-01-13T03:23:48.480Z,45.661,26.647,141.3,4.7,mb,,,,1.2,us,usp0004kkr,2014-11-07T00:47:49.645Z,"Romania",earthquake,,3.2,,55,reviewed,us,us
+1990-11-11T10:51:40.280Z,46.292,27.199,33,3.4,mb,,,,1.2,us,usp0004gs2,2014-11-07T00:47:26.082Z,"Romania",earthquake,,,,1,reviewed,us,us
+1990-10-22T09:10:19.440Z,44.576,20.966,10,2.9,m,,,,1.1,us,usp0004g1g,2014-11-07T00:47:17.887Z,"Serbia",earthquake,,,,,reviewed,us,beo
+1990-10-14T13:17:37.540Z,45.959,26.983,39.9,4.2,mb,,,,1.1,us,usp0004frx,2014-11-07T00:47:16.826Z,"Romania",earthquake,,9.2,,7,reviewed,us,us
+1990-10-06T19:09:56.180Z,45.496,26.234,142.2,4.8,mb,,,,1.1,us,usp0004fef,2014-11-07T00:47:14.826Z,"Romania",earthquake,,2.7,,49,reviewed,us,us
+1990-10-03T03:54:05.560Z,45.647,26.438,161.4,4.2,mb,,,,1,us,usp0004fad,2014-11-07T00:47:12.939Z,"Romania",earthquake,,3.7,,21,reviewed,us,us
+1990-09-30T18:54:25.070Z,45.641,26.43,77.2,4.4,mb,,,,1.3,us,usp0004f7d,2014-11-07T00:47:09.022Z,"Romania",earthquake,,4,,30,reviewed,us,us
+1990-09-10T08:28:35.830Z,45.842,26.611,110.8,3.4,mb,,,,1,us,usp0004eht,2014-11-07T00:47:06.340Z,"Romania",earthquake,,7.1,,1,reviewed,us,us
+1990-08-04T03:56:52.840Z,45.598,26.404,168.3,3.6,mb,,,,1,us,usp0004cy9,2014-11-07T00:46:53.407Z,"Romania",earthquake,,6.9,,4,reviewed,us,us
+1990-07-30T12:32:22.390Z,45.684,26.42,12.5,3.2,mb,,,,1.2,us,usp0004cr1,2014-11-07T00:46:47.712Z,"Romania",earthquake,,4.6,,1,reviewed,us,us
+1990-07-19T04:08:00.690Z,46.23,27.05,52,3.3,mb,,,,1.5,us,usp0004c6w,2014-11-07T00:46:44.219Z,"Romania",earthquake,,14.2,,1,reviewed,us,us
+1990-07-01T00:03:19.250Z,45.555,26.425,141.9,3.3,mb,,,,0.8,us,usp0004b78,2014-11-07T00:46:35.652Z,"Romania",earthquake,,7.9,,2,reviewed,us,us
+1990-06-26T07:54:17.770Z,45.801,26.808,113.6,3.6,mb,,,,0.9,us,usp0004b12,2014-11-07T00:46:33.929Z,"Romania",earthquake,,8.9,,1,reviewed,us,us
+1990-06-13T22:27:21.330Z,45.794,26.874,88.6,3.2,mb,,,,0.9,us,usp0004afs,2014-11-07T00:46:31.258Z,"Romania",earthquake,,9.1,,1,reviewed,us,us
+1990-06-12T04:21:19.480Z,43.982,26.368,19.6,3.3,mb,,,,0.9,us,usp0004adm,2014-11-07T00:46:30.981Z,"Bulgaria",earthquake,,3.4,,1,reviewed,us,us
+1990-05-31T04:48:40.670Z,45.975,26.858,85.7,3.9,mb,,,,1.1,us,usp00049zk,2014-11-07T00:46:25.319Z,"Romania",earthquake,,13.6,,5,reviewed,us,us
+1990-05-31T00:17:47.850Z,45.811,26.769,88.2,6.3,mw,,,,1,us,usp00049za,2017-04-26T17:44:16.014Z,"Romania",earthquake,,,,,reviewed,us,hrv
+1990-05-30T14:15:53.010Z,45.685,26.58,90,3.8,mb,,,,1.1,us,usp00049yv,2014-11-07T00:46:25.196Z,"Romania",earthquake,,,,1,reviewed,us,us
+1990-05-30T11:31:10.880Z,45.982,26.738,84.4,4,mb,,,,1.3,us,usp00049yn,2014-11-07T00:46:25.177Z,"Romania",earthquake,,25.5,,2,reviewed,us,us
+1990-05-30T10:40:06.140Z,45.841,26.668,89.3,7,mw,,,,1,us,usp00049yk,2017-04-26T17:44:15.386Z,"Romania",earthquake,,,,,reviewed,us,hrv
+1990-04-17T04:35:22.010Z,45.062,23.378,33,3.6,mb,,,,1,us,usp000480w,2014-11-07T00:46:09.911Z,"Romania",earthquake,,,,1,reviewed,us,us
+1990-03-07T06:50:03.500Z,45.703,26.492,162.3,3.2,mb,,,,0.8,us,usp000469j,2014-11-07T00:45:54.181Z,"Romania",earthquake,,7.2,,1,reviewed,us,us
+1990-01-13T06:55:07.280Z,45.667,26.428,160.9,4,mb,,,,1.4,us,usp000446g,2014-11-07T00:45:32.502Z,"Romania",earthquake,,7.8,,4,reviewed,us,us
