@@ -6,12 +6,11 @@ df <- read.csv(file = csv_file)
 write.csv(df)
 
 year <- df&time
-
 dataset_agg <- aggregate(df$depth,by=list(df$Date),sum,na.rm=TRUE)
-
-
 df <- cbind(df, year)
-
+df$dateTime = pd.to_datetime(df&time)
+data_ts <- ts(dataset_agg, start = 1975)
+acf(data_ts, main = "Earthquake - ACF")
 
 plot(df$depth, df$mag, main="Scatterplot - Depth & magnitude correlation",
      xlab="Earthquake depth", ylab="Earthquake maginitude", pch=19)
