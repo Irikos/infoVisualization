@@ -1,0 +1,26 @@
+---
+title: "Info Visualisation Notebook"
+output: info_vis_notebook
+---
+
+Set working directory
+
+```{r}
+# Ana's WD
+# setwd("C:/Users/Ana-Maria's Laptop/Documents/GitHub/infoVisualization")
+
+# Andrei's WD
+setwd("C:/Users/andre/Documents/infoVisualization")
+```
+
+Imports - libraries and read dataset
+
+```{r}
+library(ggplot2)
+earthquakes_csv = "eartquakes_Romania.csv"
+df <- read.csv(file = earthquakes_csv)
+```
+
+```{r}
+df
+```
