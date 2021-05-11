@@ -22,5 +22,181 @@ df <- read.csv(file = earthquakes_csv)
 ```
 
 ```{r}
-df
+# convert time column to R timestap
+df$time <- gsub('T', ' ', df$time)
+df$time <- gsub('Z', '', df$time)
+df$time <- as.POSIXct(df$time, format="%Y-%m-%d %H:%M:%OS", tz=Sys.timezone())
+
+#split timestamp into date and time
+df$timeYear <- as.Date(df$time)
+df$timeDay <- format(df$time, "%H:%M:%OS")
+df$year <- format(df$time, "%Y")
+df$month <- format(df$time, "%m")
+```
+
+```{r}
+# see data types
+str(df)
+```
+
+```{r}
+# Exploring values to better understand the dataset
+# Starting with mag (magnitude)
+mag_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = mag), fill = "steelblue", bins=40) +
+  #geom_freqpoly(mapping = aes(x = mag), bins=40) +
+  theme_minimal()
+
+mag_hist + ggtitle("Number of recorded earthquakes by magnitude")
+
+# let's see how many are per year
+year_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(y = year), fill = "steelblue") +
+  theme_minimal()
+
+year_bar + ggtitle("Number of earthquakes per year (1990 - 2017)")
+
+# and per month
+month_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = month), fill = "steelblue") +
+  theme_minimal()
+
+month_bar + ggtitle("Number of earthquakes by month (1990 - 2017)")
+
+# earthquakes count by depth
+
+depth_bar <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = depth), fill = "steelblue") +
+  theme_minimal()
+
+depth_bar + ggtitle("Number of earthquakes by depth")
+
+# magtype count
+
+magtype_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = magType), fill = "steelblue") +
+  theme_minimal()
+
+magtype_bar + ggtitle("Magnitude type (?)")
+
+
+# nst count
+
+nst_bar <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = nst), fill = "steelblue", bins=50) +
+  theme_minimal()
+
+nst_bar + ggtitle("Nst type (?)")
+
+
+
+# gap
+gap_bar <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = gap), fill = "steelblue") +
+  theme_minimal()
+
+gap_bar + ggtitle("Gap Value (?)")
+
+
+
+# dmin
+dmin_bar <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = dmin), fill = "steelblue") +
+  theme_minimal()
+
+dmin_bar + ggtitle("Dmin Value (?)")
+
+# rms
+rms_bar <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = rms), fill = "steelblue") +
+  theme_minimal()
+
+rms_bar + ggtitle("Rms Value (?)")
+
+# net
+net_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = net), fill = "steelblue") +
+  theme_minimal()
+
+net_bar + ggtitle("Net Value (?)")
+
+
+# type
+type_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = type), fill = "steelblue") +
+  theme_minimal()
+
+type_bar + ggtitle("Type Value (?)")
+
+
+# status
+status_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = status), fill = "steelblue") +
+  theme_minimal()
+
+status_bar + ggtitle("Status Value (?)")
+
+
+# LocationSource
+locationSource_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = locationSource), fill = "steelblue") +
+  theme_minimal()
+
+locationSource_bar + ggtitle("Location Source Value (?)")
+
+
+# MagSource
+magSourceSource_bar <- ggplot(df) + 
+  geom_bar(mapping = aes(x = magSource), fill = "steelblue") +
+  theme_minimal()
+
+magSourceSource_bar + ggtitle("Mag Source Value (?)")
+
+
+
+# horizontalError
+horizontalError_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = horizontalError), fill = "steelblue") +
+  theme_minimal()
+
+horizontalError_hist + ggtitle("horizontalError Value (?)")
+
+
+depthError_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = depthError), fill = "steelblue") +
+  theme_minimal()
+
+depthError_hist + ggtitle("depthError Value (?)")
+
+magError_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = magError), fill = "steelblue") +
+  theme_minimal()
+
+magError_hist + ggtitle("magError Value (?)")
+
+
+
+
+magNst_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = magNst), fill = "steelblue") +
+  theme_minimal()
+
+magNst_hist + ggtitle("magNst Value (?)")
+```
+
+```{r}
+# We start by exploring the most obvious questions: where do most earthquakes happen, including their magnitude as well
+
+ggplot(data=df) +
+  geom_point(mapping = aes(x = latitude, y = longitude, color=mag))
+
+# as we can see, there is a big cluster where most earthquakes happen, with a smaller cluster that is noticeable, followed by sparsely distributed cases
+
+
+#ggplot(data=df) +
+#  geom_point(mapping = aes(x = mag, y = year))
+```
+
+```{geom_bar(mapping = aes(x = month), fill = "steelblue") +}
+  theme_minimal()
 ```
