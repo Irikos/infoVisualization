@@ -10,7 +10,7 @@ Set working directory
 # setwd("C:/Users/Ana-Maria's Laptop/Documents/GitHub/infoVisualization")
 
 # Andrei's WD
-setwd("C:/Users/andre/Documents/infoVisualization")
+setwd("C:/Users/andre/Documents/infoVisualization/")
 ```
 
 Imports - libraries and read dataset
@@ -30,6 +30,7 @@ df$time <- as.POSIXct(df$time, format="%Y-%m-%d %H:%M:%OS", tz=Sys.timezone())
 #split timestamp into date and time
 df$timeYear <- as.Date(df$time)
 df$timeDay <- format(df$time, "%H:%M:%OS")
+
 df$year <- format(df$time, "%Y")
 df$month <- format(df$time, "%m")
 ```
@@ -181,6 +182,15 @@ magNst_hist <- ggplot(df) +
   theme_minimal()
 
 magNst_hist + ggtitle("magNst Value (?)")
+
+
+
+mag_hist <- ggplot(df) + 
+  geom_histogram(mapping = aes(x = mag), fill = "steelblue", bins=40) +
+  #geom_freqpoly(mapping = aes(x = mag), bins=40) +
+  theme_minimal()
+
+
 ```
 
 ```{r}
@@ -191,9 +201,16 @@ ggplot(data=df) +
 
 # as we can see, there is a big cluster where most earthquakes happen, with a smaller cluster that is noticeable, followed by sparsely distributed cases
 
-
 #ggplot(data=df) +
 #  geom_point(mapping = aes(x = mag, y = year))
 ```
 
-`{geom_bar(mapping = aes(x = month), fill = "steelblue") +}   theme_minimal()`
+```{r}
+# Visualizing the earthquakes and their magnitudes each year 
+ggplot(df) +
+  geom_bar(mapping = aes(x = mag, fill = year)) +
+  facet_wrap(~ year)
+
+```
+
+`heme_minimal()`
