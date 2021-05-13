@@ -24,16 +24,19 @@ Imports - libraries and read dataset
 #install.packages("esquisse")
 #install.packages("ggiraph")
 #install.packages("gdtools")
+#install.packages("leaflet") # interactive maps
+
 
 
 library(ggplot2)
 library(gganimate)
 library(gapminder)
-library(tidyverse)
+#library(tidyverse)
 library(ggmap)
 library(ggiraph)
 
 library(esquisse)
+library(leaflet)
 
 
 # esquisser(df)
@@ -250,8 +253,6 @@ ggplot(df) +
 
 ```
 
-`heme_minima`
-
 ```{r}
 ggplot(data=df) +
   geom_point(mapping = aes(x = longitude, y = latitude, color = mag)) +
@@ -278,37 +279,64 @@ ggplot(data=df) +
 
 ```{r}
 
-register_google(key = "AIzaSyBfNb0-e9WaBDXrHnFl2Tud9HT6DdUPuvs", write = TRUE)
-has_google_key()
-google_key()
-has_google_client()
-has_google_signature()
-
-
-```
-
-```{r}
-
 romania_map <- get_map("Brasov", maptype = "roadmap", zoom = 6)
 
 romania_box <- c(20, 43, 30, 48.5)
 romania_map2 <- get_map(location = romania_box, source = "stamen", maptype = "toner", zoom = 7)
 
 
-ggmap(romania_map) + 
-  geom_point(data = df, aes(x = longitude, y = latitude), color = "steelblue", size = 1) 
+#ggmap(romania_map) + 
+#  geom_point(data = df, aes(x = longitude, y = latitude), color = "steelblue", size = 1) 
 
 ggmap(romania_map2) + 
-  geom_point(data = df, aes(x = longitude, y = latitude), color = "steelblue", size = 1) 
+  geom_point(data = df, aes(x = longitude, y = latitude, color = mag), size = 1) 
 
 ```
 
 ```{r}
 gg_point = ggplot(data = mtcars) +
-    geom_point_interactive(aes(x = wt, y = qsec, color = disp,    tooltip = carname, data_id = carname)) + 
+    geom_point_interactive(aes(x = wt, y = qsec, color = mag, tooltip = carname, data_id = carname)) + 
   theme_minimal()
 
 gg_point = ggplot(data = df) +
     geom_point_interactive(aes(x = longitude, y = latitude, color = year)) + 
   theme_minimal()
+
+```
+
+```{r}
+getColor <- function(quakes) {
+  sapply(quakes$mag, function(mag) {
+  if(mag <= 4) {
+    "green"
+  } else if(mag <= 5) {
+    "orange"
+  } else {
+    "red"
+  } })
+}
+
+icons <- awesomeIcons(
+  icon = 'ios-close',
+  iconColor = 'black',
+  library = 'ion',
+  markerColor = getColor(df)
+)
+```
+
+```{r}
+
+# Show first 20 rows from the `quakes` dataset
+leaflet(data = df) %>% 
+  addTiles() %>%
+  addAwesomeMarkers(~longitude, ~latitude, popup = ~as.character(year), label = ~as.character(mag), icon=icons, clusterOptions = markerClusterOptions())
+```
+
+```{r}
+library(leaflet)
+
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+m  # Print the map
 ```
