@@ -16,7 +16,30 @@ setwd("C:/Users/andre/Documents/infoVisualization/")
 Imports - libraries and read dataset
 
 ```{r}
+#install.packages("png")
+#install.packages("gifsky")
+#install.packages("gganimate")
+#install.packages("gapminder")
+#install.packages("ggmap")
+#install.packages("esquisse")
+#install.packages("ggiraph")
+#install.packages("gdtools")
+
+
 library(ggplot2)
+library(gganimate)
+library(gapminder)
+library(tidyverse)
+library(ggmap)
+library(ggiraph)
+
+library(esquisse)
+
+
+# esquisser(df)
+```
+
+```{r}
 earthquakes_csv = "eartquakes_Romania.csv"
 df <- read.csv(file = earthquakes_csv)
 ```
@@ -33,6 +56,8 @@ df$timeDay <- format(df$time, "%H:%M:%OS")
 
 df$year <- format(df$time, "%Y")
 df$month <- format(df$time, "%m")
+
+df$yearInt <- as.integer(df$year)
 ```
 
 ```{r}
@@ -186,7 +211,7 @@ magNst_hist + ggtitle("magNst Value (?)")
 
 
 mag_hist <- ggplot(df) + 
-  geom_histogram(mapping = aes(x = mag), fill = "steelblue", bins=40) +
+  geom_histogram(mapping = aes(x = mag), fill = "steelblue", bins = 40) +
   #geom_freqpoly(mapping = aes(x = mag), bins=40) +
   theme_minimal()
 
@@ -201,6 +226,18 @@ ggplot(data=df) +
 
 # as we can see, there is a big cluster where most earthquakes happen, with a smaller cluster that is noticeable, followed by sparsely distributed cases
 
+
+ggplot(data=df) +
+  geom_bar(mapping = aes(x = mag, fill = year))
+
+
+ggplot(data=df) +
+  geom_freqpoly(mapping = aes(x = mag, color = year))
+
+ggplot(data=df) +
+  geom_density(mapping = aes(x = mag, color = year))
+
+
 #ggplot(data=df) +
 #  geom_point(mapping = aes(x = mag, y = year))
 ```
@@ -213,4 +250,65 @@ ggplot(df) +
 
 ```
 
-`heme_minimal()`
+`heme_minima`
+
+```{r}
+ggplot(data=df) +
+  geom_point(mapping = aes(x = longitude, y = latitude, color = mag)) +
+  # Here comes the gganimate specific bits
+  labs(title = 'Year: {frame_time}', x = 'Longitude', y = 'Latitude') +
+  transition_time(yearInt) +
+  ease_aes('linear')
+
+
+
+```
+
+```{r}
+
+
+ggplot(data=df) +
+  geom_bar(mapping = aes(x = mag)) +
+  # Here comes the gganimate specific bits
+  labs(title = 'Year: {frame_time}', x = 'Mag') +
+  transition_time(yearInt) +
+  ease_aes('linear')
+
+```
+
+```{r}
+
+register_google(key = "AIzaSyBfNb0-e9WaBDXrHnFl2Tud9HT6DdUPuvs", write = TRUE)
+has_google_key()
+google_key()
+has_google_client()
+has_google_signature()
+
+
+```
+
+```{r}
+
+romania_map <- get_map("Brasov", maptype = "roadmap", zoom = 6)
+
+romania_box <- c(20, 43, 30, 48.5)
+romania_map2 <- get_map(location = romania_box, source = "stamen", maptype = "toner", zoom = 7)
+
+
+ggmap(romania_map) + 
+  geom_point(data = df, aes(x = longitude, y = latitude), color = "steelblue", size = 1) 
+
+ggmap(romania_map2) + 
+  geom_point(data = df, aes(x = longitude, y = latitude), color = "steelblue", size = 1) 
+
+```
+
+```{r}
+gg_point = ggplot(data = mtcars) +
+    geom_point_interactive(aes(x = wt, y = qsec, color = disp,    tooltip = carname, data_id = carname)) + 
+  theme_minimal()
+
+gg_point = ggplot(data = df) +
+    geom_point_interactive(aes(x = longitude, y = latitude, color = year)) + 
+  theme_minimal()
+```
