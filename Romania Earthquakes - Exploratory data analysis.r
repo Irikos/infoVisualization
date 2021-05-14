@@ -60,3 +60,6 @@ ggplot(data=df) +
         geom_point(mapping = aes(x = latitude, y = depth), color = "red" ) +
         xlab('Earthquake Latitude') + ylab("Earthquake Depth")
 
+
+
+
