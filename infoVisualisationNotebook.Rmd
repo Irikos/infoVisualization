@@ -72,7 +72,25 @@ str(df)
 
 Describing the dataset: time - self-explanatory, includes: year, month, day, hour, minute, seconds, milliseconds latitude & longitude - the coordinates of the earthquake source depth - the depth at which it originated mag - the physical size of the earthquake Great 8 or more Major 7 - 7.9 Strong 6 - 6.9 Moderate 5 - 5.9 Light 4 - 4.9 Minor 3 - 3.9 magType - category based on magnitude range and distance range. Details: <https://www.usgs.gov/natural-hazards/earthquake-hazards/science/magnitude-types?qt-science_center_objects=0#qt-science_center_objects>
 
-nst - number of seismic stations which reported P- and S- arrival times for the earthquake gap - azimuthal gap range (range: 0 to 360) dmin - distance from the epicenter to the nearest station. In general, the smaller this number, the more reliable the calculated depth of the earthquake rms - root-mean-squared residual of solution (range: 0. to 1.) net - ? id updated place - explained in km and cardinal direction from nearest relevant settlement type - if it is an earthquake or something else. All of them are the same type, we ignore this column horizontalError depthError magError magNst - number of stations that reported the magnitude status: all of them are reviewed locationSource - the source of the earthquake location data (the data is taken from multiple websites) magSource - the source of the earthquake magnitude data (the data is taken from multiple websites) Extracted columns timeYear - the date at which it occured (year, month and day) timeDay - the time at which it occured (hour, minutes, seconds, milliseconds) year month yearInt - same as year, but as int datatype, in order to use it for animated graphs
+- nst: number of seismic stations which reported P- and S- arrival times for the earthquake 
+- gap: azimuthal gap range (range: 0 to 360) 
+- dmin: distance from the epicenter to the nearest station. In general, the smaller this number, the more reliable the calculated depth of the earthquake 
+- rms: root-mean-squared residual of solution (range: 0. to 1.) 
+- net ? 
+- id 
+- updated 
+- place: explained in km and cardinal direction from nearest relevant settlement type - if it is an earthquake or something else. All of them are the same type, we ignore this column 
+- horizontalError 
+- depthError 
+- magError 
+- magNst: number of stations that reported the magnitude status: all of them are reviewed 
+- locationSource: the source of the earthquake location data (the data is taken from multiple websites) 
+- magSource: the source of the earthquake magnitude data (the data is taken from multiple websites) 
+- timeYear: the date at which it occured (year, month and day) 
+- timeDay: the time at which it occured (hour, minutes, seconds, milliseconds) 
+- year 
+- month 
+- yearInt: same as year, but as int datatype, in order to use it for animated graphs
 
 We start by exploring the variance in the dataset. This way we can better understand each column, besides its initial definition.
 
@@ -195,7 +213,7 @@ ggmap(romania_map2) +
 
 ```
 
-As we can see, most earthquakes are in Vrance County, as expected.
+As we can see, most earthquakes are in Vrancea County, as expected.
 
 Let's also make an interactive map to play around it
 
@@ -296,7 +314,7 @@ ggplot(data=df) +
 
 ```
 
-Ok, let's swithc to 3D plots as it seems we need to take into account more than 2 columns.
+Ok, let's switch to 3D plots as it seems we need to take into account more than 2 columns.
 
 Starting with longitude, latitude and magnitude.
 
@@ -304,8 +322,8 @@ Starting with longitude, latitude and magnitude.
 
 longlatmag <- plot_ly(df, x = ~longitude, y = ~latitude, z = ~mag,
                marker = list(color = ~mag, colorscale = c('#FFE1A1', '#683531'), showscale = TRUE))
-longlatmag <- fig %>% add_markers()
-longlatmag <- fig %>% layout(scene = list(xaxis = list(title = 'Longitude'),
+longlatmag <- longlatmag %>% add_markers()
+longlatmag <- longlatmag %>% layout(scene = list(xaxis = list(title = 'Longitude'),
                                    yaxis = list(title = 'Latitude'),
                                    zaxis = list(title = 'Magnitude')),
                       annotations = list(
@@ -327,8 +345,8 @@ It is interesting to see that while there are 2 obvious clusters regarding the l
 
 longlatdepth <- plot_ly(df, x = ~longitude, y = ~latitude, z = ~depth,
                marker = list(color = ~mag, colorscale = c('#FFE1A1', '#683531'), showscale = TRUE))
-longlatdepth <- fig %>% add_markers()
-longlatdepth <- fig %>% layout(scene = list(xaxis = list(title = 'Longitude'),
+longlatdepth <- longlatdepth %>% add_markers()
+longlatdepth <- longlatdepth %>% layout(scene = list(xaxis = list(title = 'Longitude'),
                                    yaxis = list(title = 'Latitude'),
                                    zaxis = list(title = 'Depth')),
                       annotations = list(
@@ -348,8 +366,8 @@ Let's do some more 3D exploring. How do the errors look? And let's color them ba
 
 longlatdepth <- plot_ly(df, x = ~horizontalError, y = ~depthError, z = ~magError,
                marker = list(color = ~mag, colorscale = c('#FFE1A1', '#683531'), showscale = TRUE))
-longlatdepth <- fig %>% add_markers()
-longlatdepth <- fig %>% layout(scene = list(xaxis = list(title = 'Horizontal Error'),
+longlatdepth <- longlatdepth %>% add_markers()
+longlatdepth <- longlatdepth %>% layout(scene = list(xaxis = list(title = 'Horizontal Error'),
                                    yaxis = list(title = 'Depth Error'),
                                    zaxis = list(title = 'Magnitude Error')),
                       annotations = list(
