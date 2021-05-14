@@ -10,7 +10,7 @@ Set working directory
 # setwd("C:/Users/Ana-Maria's Laptop/Documents/GitHub/infoVisualization")
 
 # Andrei's WD
-setwd("C:/Users/andre/Documents/infoVisualization/")
+# setwd("C:/Users/andre/Documents/infoVisualization/")
 ```
 
 Imports - libraries and read dataset
@@ -214,3 +214,78 @@ ggplot(df) +
 ```
 
 `heme_minimal()`
+
+```{r}
+get_ts_matrix <- function(ts_magnitude) {
+  time <- 0
+  mag <- 0
+  for (index in 1:nrow(ts_magnitude)) {
+    time[index] <- ts_magnitude[index,1]
+    mag[index] <- ts_magnitude[index,2]
+  }
+  mag_matrix <- matrix(ts_magnitude$df.mag, 
+                       nrow =length(ts_magnitude$df.timeYear),
+                       dimnames = list(ts_magnitude$df.timeYear, "data"))
+  return(mag_matrix)
+}
+```
+
+```{r}
+### CHECK FOR STATIONARITY AND MAKE 
+### DATA STATIONARY
+
+### Magnitude time series
+
+ts_magnitude <- data.frame(df$timeYear, df$mag)
+
+ts_magnitude_plot <- ggplot(ts_magnitude, aes(x=df.timeYear, y=df.mag)) +
+  ggtitle("Magnitude time series") +
+  geom_line() + 
+  xlab("")
+
+ts_magnitude_plot
+
+mag_matrix <- get_ts_matrix(ts_magnitude)
+acf2(ts(mag_matrix))
+
+### First diff time series
+ts_magnitude$df.mag<- c(0, diff(df$mag))
+
+ts_diff_magnitude_plot <- ggplot(ts_magnitude, aes(x=df.timeYear, y=df.mag)) +
+  ggtitle("First diff - Magnitude time series") +
+  geom_line() + 
+  xlab("")
+
+ts_diff_magnitude_plot
+
+diff_mag_matrix <- get_ts_matrix(ts_magnitude)
+acf2(ts(diff_mag_matrix))
+
+### Second diff time series
+
+ts_magnitude$df.mag<- c(0, diff(ts_magnitude$df.mag))
+
+ts_second_diff_magnitude_plot <- ggplot(ts_magnitude, aes(x=df.timeYear, y=df.mag)) +
+  ggtitle("Second diff - Magnitude time series") +
+  geom_line() + 
+  xlab("")
+
+ts_second_diff_magnitude_plot
+
+second_diff_mag_matrix <- get_ts_matrix(ts_magnitude)
+acf2(ts(second_diff_mag_matrix))
+
+```
+
+
+```{r}
+
+first_diff = diff(data_ts)
+plot(first_diff, main="Children per woman, 1950 to 2015 in AFRICA - Third differencing")
+acf(first_diff)
+```
+
+
+```{r}
+
+```
