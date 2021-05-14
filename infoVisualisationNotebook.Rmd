@@ -1,6 +1,5 @@
 ---
 title: "Info Visualisation Notebook"
-output: info_vis_notebook
 ---
 
 Set working directory
@@ -70,44 +69,10 @@ df$yearInt <- as.integer(df$year)
 # see data types
 str(df)
 ```
-Describing the dataset:
-time - self-explanatory, includes: year, month, day, hour, minute, seconds, milliseconds
-latitude & longitude - the coordinates of the earthquake source
-depth - the depth at which it originated
-mag - the physical size of the earthquake
-  Great	8 or more
-  Major	7 - 7.9
-  Strong	6 - 6.9
-  Moderate	5 - 5.9
-  Light	4 - 4.9
-  Minor	3 - 3.9
-magType - category based on magnitude range and distance range. Details: https://www.usgs.gov/natural-hazards/earthquake-hazards/science/magnitude-types?qt-science_center_objects=0#qt-science_center_objects
 
-nst - number of seismic stations which reported P- and S- arrival times for the earthquake
-gap - azimuthal gap range (range: 0 to 360)
-dmin - distance from the epicenter to the nearest station. In general, the smaller this number, the more reliable the calculated depth of the earthquake
-rms - root-mean-squared residual of solution (range: 0. to 1.)
-net - ?
-id 
-updated
-place - explained in km and cardinal direction from nearest relevant settlement
-type - if it is an earthquake or something else. All of them are the same type, we ignore this column
-horizontalError
-depthError
-magError
-magNst - number of stations that reported the magnitude 
-status: all of them are reviewed
-locationSource - the source of the earthquake location data (the data is taken from multiple websites)
-magSource - the source of the earthquake magnitude data (the data is taken from multiple websites)
-Extracted columns
-timeYear - the date at which it occured (year, month and day)
-timeDay - the time at which it occured (hour, minutes, seconds, milliseconds)
-year
-month
-yearInt - same as year, but as int datatype, in order to use it for animated graphs
+Describing the dataset: time - self-explanatory, includes: year, month, day, hour, minute, seconds, milliseconds latitude & longitude - the coordinates of the earthquake source depth - the depth at which it originated mag - the physical size of the earthquake Great 8 or more Major 7 - 7.9 Strong 6 - 6.9 Moderate 5 - 5.9 Light 4 - 4.9 Minor 3 - 3.9 magType - category based on magnitude range and distance range. Details: <https://www.usgs.gov/natural-hazards/earthquake-hazards/science/magnitude-types?qt-science_center_objects=0#qt-science_center_objects>
 
-
-
+nst - number of seismic stations which reported P- and S- arrival times for the earthquake gap - azimuthal gap range (range: 0 to 360) dmin - distance from the epicenter to the nearest station. In general, the smaller this number, the more reliable the calculated depth of the earthquake rms - root-mean-squared residual of solution (range: 0. to 1.) net - ? id updated place - explained in km and cardinal direction from nearest relevant settlement type - if it is an earthquake or something else. All of them are the same type, we ignore this column horizontalError depthError magError magNst - number of stations that reported the magnitude status: all of them are reviewed locationSource - the source of the earthquake location data (the data is taken from multiple websites) magSource - the source of the earthquake magnitude data (the data is taken from multiple websites) Extracted columns timeYear - the date at which it occured (year, month and day) timeDay - the time at which it occured (hour, minutes, seconds, milliseconds) year month yearInt - same as year, but as int datatype, in order to use it for animated graphs
 
 We start by exploring the variance in the dataset. This way we can better understand each column, besides its initial definition.
 
@@ -205,14 +170,12 @@ magNst_hist + ggtitle("Number of stations that reported the magnitude ")
 
 We start by exploring the most obvious questions: where do most earthquakes happen, including their magnitude as well
 
-
 ```{r}
 ggplot(data=df) +
   geom_point(mapping = aes(x = longitude, y = latitude, color=mag))
 ```
 
-As we can see, there is a big cluster where most earthquakes happen, with a smaller cluster that is noticeable, followed by sparsely distributed cases
-Let's now plot them on a map for a better visualization. Based on common knowledge of earthquakes in Romania, can you guess where the main epicenter will be?
+As we can see, there is a big cluster where most earthquakes happen, with a smaller cluster that is noticeable, followed by sparsely distributed cases Let's now plot them on a map for a better visualization. Based on common knowledge of earthquakes in Romania, can you guess where the main epicenter will be?
 
 (we are using stamen source for the map, but the commented code also uses google maps. It requires an API key, though)
 
@@ -231,20 +194,17 @@ ggmap(romania_map2) +
 
 
 ```
+
 As we can see, most earthquakes are in Vrance County, as expected.
 
 Let's also make an interactive map to play around it
 
 We have colored each pin by earthquake classification type (based on magnitude) and have grouped them in clusters (and an extra without clusters just for showcase).
 
-green: minor
-blue: light
-pink: moderate
-orange: strong
-red: major
-black: great
+green: minor blue: light pink: moderate orange: strong red: major black: great
 
 As we can see, most of the recorder earthquakes are either minor or light. As we go up in magnitude, the number of earthquakes decreases.
+
 ```{r}
 getColor <- function(quakes) {
   sapply(quakes$mag, function(mag) {
@@ -280,9 +240,7 @@ leaflet(data = df) %>%
   addAwesomeMarkers(~longitude, ~latitude, popup = ~as.character(year), label = ~as.character(mag), icon=icons)
 ```
 
-
-Let's start exploring covariance, as well - starting with the number of earthquakes per magnitude, each year.
-We started by using a barplot and a freqpoly, but it is quite hard to get useful information due to different number of earthquakes in each year. Thus, we switched to density plot which takes that into consideration, as well.
+Let's start exploring covariance, as well - starting with the number of earthquakes per magnitude, each year. We started by using a barplot and a freqpoly, but it is quite hard to get useful information due to different number of earthquakes in each year. Thus, we switched to density plot which takes that into consideration, as well.
 
 ```{r}
 ggplot(data=df) +
@@ -316,6 +274,7 @@ ggplot(data=df) +
   theme_minimal()
 
 ```
+
 There is obviously a correlation between the location and the number of earthquakes. Let's see if we can find other correlations, as well. How about between the depth and the magnitude
 
 ```{r}
@@ -362,9 +321,7 @@ longlatmag
 
 Ok, now let's take a look at the latitude, longitude and depth.
 
-It is interesting to see that while there are 2 obvious clusters regarding the location, one cluster (Vrancea one) definitely has earthquakes with more depth.
-We have also colored them based on magnitude.
-
+It is interesting to see that while there are 2 obvious clusters regarding the location, one cluster (Vrancea one) definitely has earthquakes with more depth. We have also colored them based on magnitude.
 
 ```{r}
 
@@ -387,7 +344,6 @@ longlatdepth
 
 Let's do some more 3D exploring. How do the errors look? And let's color them based on magnitude to see if the errors are correlated with the recorder magnitude
 
-
 ```{r}
 
 longlatdepth <- plot_ly(df, x = ~horizontalError, y = ~depthError, z = ~magError,
@@ -407,8 +363,7 @@ longlatdepth <- fig %>% layout(scene = list(xaxis = list(title = 'Horizontal Err
 longlatdepth
 ```
 
-Ok, now let's take a look at some animations. (be patient when loading them)
-Not extremely useful, but super cool to look at!
+Ok, now let's take a look at some animations. (be patient when loading them) Not extremely useful, but super cool to look at!
 
 ```{r}
 ggplot(data = df) +
@@ -426,7 +381,6 @@ ggplot(data = df) +
   ease_aes('linear')
 ```
 
-
 ....and we tried this library as well, but, for some reason, it doesn't work. Too bad.
 
 ```{r}
@@ -436,7 +390,6 @@ gg_point = ggplot(data = df) +
   theme_minimal()
 
 ```
-
 
 ```{r}
 get_ts_matrix <- function(ts_magnitude) {
@@ -452,15 +405,6 @@ get_ts_matrix <- function(ts_magnitude) {
   return(mag_matrix)
 }
 ```
-
-
-
-
-
-
-
-
-
 
 ```{r}
 ### CHECK FOR STATIONARITY AND MAKE 
