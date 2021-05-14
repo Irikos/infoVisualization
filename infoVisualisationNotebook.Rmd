@@ -80,6 +80,8 @@ df$yearInt <- as.integer(df$year)
 str(df)
 ```
 
+# Dataset description 
+
 Describing the dataset: time - self-explanatory, includes: year, month, day, hour, minute, seconds, milliseconds latitude & longitude - the coordinates of the earthquake source depth - the depth at which it originated mag - the physical size of the earthquake Great 8 or more Major 7 - 7.9 Strong 6 - 6.9 Moderate 5 - 5.9 Light 4 - 4.9 Minor 3 - 3.9 magType - category based on magnitude range and distance range. Details: <https://www.usgs.gov/natural-hazards/earthquake-hazards/science/magnitude-types?qt-science_center_objects=0#qt-science_center_objects>
 
 - nst: number of seismic stations which reported P- and S- arrival times for the earthquake 
@@ -102,6 +104,7 @@ Describing the dataset: time - self-explanatory, includes: year, month, day, hou
 - month 
 - yearInt: same as year, but as int datatype, in order to use it for animated graphs
 
+## Variance 
 We start by exploring the variance in the dataset. This way we can better understand each column, besides its initial definition.
 
 ```{r}
@@ -196,6 +199,8 @@ magNst_hist <- ggplot(df) +
 magNst_hist + ggtitle("Number of stations that reported the magnitude ")
 ```
 
+## Mapping their location 
+
 We start by exploring the most obvious questions: where do most earthquakes happen, including their magnitude as well
 
 ```{r}
@@ -268,6 +273,8 @@ leaflet(data = df) %>%
   addAwesomeMarkers(~longitude, ~latitude, popup = ~as.character(year), label = ~as.character(mag), icon=icons)
 ```
 
+## Covariance
+
 Let's start exploring covariance, as well - starting with the number of earthquakes per magnitude, each year. We started by using a barplot and a freqpoly, but it is quite hard to get useful information due to different number of earthquakes in each year. Thus, we switched to density plot which takes that into consideration, as well.
 
 ```{r}
@@ -323,6 +330,9 @@ ggplot(data=df) +
   theme_minimal()
 
 ```
+
+
+## 3D Plotting
 
 Ok, let's switch to 3D plots as it seems we need to take into account more than 2 columns.
 
@@ -393,6 +403,8 @@ longlatdepth
 
 Ok, now let's take a look at some animations. (be patient when loading them) Not extremely useful, but super cool to look at!
 
+## Animations
+
 ```{r}
 ggplot(data = df) +
   geom_point(mapping = aes(x = longitude, y = latitude, color = mag)) +
@@ -409,6 +421,47 @@ ggplot(data = df) +
   ease_aes('linear')
 ```
 
+# Time series
+
+```{r}
+year_mag_mean <- aggregate(list("MagMean"=df[, 5]), list("Year"=df$year), mean)
+year_df <- data.frame(year_mag_mean$Year, year_mag_mean$MagMean)
+
+time <- 0
+mag <- 0
+for (index in 1:nrow(year_df)) {
+  time[index] <- year_df[index,1]
+  mag[index] <- year_df[index,2]
+}
+
+data_matrix <- matrix(mag, 
+                      nrow =length(time),
+                      dimnames = list(time, "data"))
+data_ts <- ts(data_matrix, start = 1990)
+ts.plot(data_ts, 
+        main = "Romania Earthquake - Magnitude mean per year",
+        xlab="Year", 
+        ylab="Magnitude mean", 
+        col="#3c4e66",
+        lwd=1)
+acf2(data_ts)
+
+my_model <- arima(data_ts, order=c(1,1,1))
+stdres <- my_model$residuals/sqrt(my_model$sigma2)
+plot(my_model$residuals, main = "Chosen model - ARIMA(1, 1, 1) - Residuals")
+qqnorm(stdres, main = "Chosen model - ARIMA(1, 1, 1) - Normal Q-Q Plot of Std Residuals")
+
+shapiro.test(residuals(my_model))
+
+my_forecast = predict(arima(data_ts ,order=c(1,1,1)), n.ahead=5)
+ts.plot(data_ts, 
+        my_forecast$pred,  
+        main="Romania Earthquake - Magniture mean per year prediction", 
+        col=1:2,
+        xlab="Year", 
+        ylab="Magnitude mean", 
+        lwd=1)
+```
 
 
 ```{r}
@@ -476,45 +529,6 @@ acf2(ts(second_diff_mag_matrix))
 data <- ts(diff_mag_matrix)
 ```
 
-```{r}
-year_mag_mean <- aggregate(list("MagMean"=df[, 5]), list("Year"=df$year), mean)
-year_df <- data.frame(year_mag_mean$Year, year_mag_mean$MagMean)
-
-time <- 0
-mag <- 0
-for (index in 1:nrow(year_df)) {
-  time[index] <- year_df[index,1]
-  mag[index] <- year_df[index,2]
-}
-
-data_matrix <- matrix(mag, 
-                      nrow =length(time),
-                      dimnames = list(time, "data"))
-data_ts <- ts(data_matrix, start = 1990)
-ts.plot(data_ts, 
-        main = "Romania Earthquake - Magnitude mean per year",
-        xlab="Year", 
-        ylab="Magnitude mean", 
-        col="#3c4e66",
-        lwd=1)
-acf2(data_ts)
-
-my_model <- arima(data_ts, order=c(1,1,1))
-stdres <- my_model$residuals/sqrt(my_model$sigma2)
-plot(my_model$residuals, main = "Chosen model - ARIMA(1, 1, 1) - Residuals")
-qqnorm(stdres, main = "Chosen model - ARIMA(1, 1, 1) - Normal Q-Q Plot of Std Residuals")
-
-shapiro.test(residuals(my_model))
-
-my_forecast = predict(arima(data_ts ,order=c(1,1,1)), n.ahead=5)
-ts.plot(data_ts, 
-        my_forecast$pred,  
-        main="Romania Earthquake - Magniture mean per year prediction", 
-        col=1:2,
-        xlab="Year", 
-        ylab="Magnitude mean", 
-        lwd=1)
-```
 
 ```{r}
 ### ANALYSING TIME SERIES DATA
@@ -544,3 +558,7 @@ ts.plot(data_ts,
 # df_test <- window(x = df_ts, start = c(2010))
 ```
 
+# Conclusion
+Earthquakes in Romania are a major cause of disaster and sometimes death. It is important to recognize patterns in their behavior as this can help us minimize the caused damage. We did identify some known patterns, such as the 2 important clusters and analyzed the difference between them (such as, the earthquakes in Vrancea county are deeper, more often and more devastating).
+
+Predicting them with time series is next to impossible, as there are many factors. Either way, if we do look at them, there is a clear sesonality to it. Based on that, we are expecting a major earthquake in the following years.
