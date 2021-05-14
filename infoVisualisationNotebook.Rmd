@@ -391,7 +391,13 @@ gg_point = ggplot(data = df) +
 
 ```
 
+
 ```{r}
+### CHECK FOR STATIONARITY AND MAKE 
+### DATA STATIONARY
+
+### Magnitude time series
+
 get_ts_matrix <- function(ts_magnitude) {
   time <- 0
   mag <- 0
@@ -404,13 +410,6 @@ get_ts_matrix <- function(ts_magnitude) {
                        dimnames = list(ts_magnitude$df.timeYear, "data"))
   return(mag_matrix)
 }
-```
-
-```{r}
-### CHECK FOR STATIONARITY AND MAKE 
-### DATA STATIONARY
-
-### Magnitude time series
 
 ts_magnitude <- data.frame(df$timeYear, df$mag)
 
@@ -459,13 +458,6 @@ data <- ts(diff_mag_matrix)
 
 ma1<-arima(data, order=c(0,0,1))
 
-ar1<-arima(data ,order=c(1,0,0))
-ar2<-arima(data ,order=c(2,0,0))
-ar3<-arima(data ,order=c(3,0,0))
-ar4<-arima(data ,order=c(4,0,0))
-```
-
-```{r}
 my_model <- arima(data, order=c(1,2,2))
 stdres <- my_model$residuals/sqrt(my_model$sigma2)
 plot(my_model$residuals, main = "Chosen model - ARIMA(1, 3, 2) - Residuals")
@@ -473,17 +465,47 @@ qqnorm(stdres, main = "Chosen model - ARIMA(1, 3, 2) - Normal Q-Q Plot of Std Re
 
 shapiro.test(residuals(my_model))
 ```
-
 ```{r}
-my_forecast = predict(arima(ts(mag_matrix), order=c(1,2,2)), n.ahead=30)
-# ts.plot(ts(mag_matrix), 
-#        my_forecast$pred,  
-#        col=1:2,
-#        lwd=1)
+library(dplyr)
+library(tseries)
+library(astsa)
+library(sqldf)
 
-my_forecast
-ggplot(ts_magnitude, aes(x=df.timeYear, y=df.mag)) +
-  ggtitle("Magnitude time series") +
-  geom_line() + 
-  xlab("")
+year_mag_mean <- aggregate(list("MagMean"=df[, 5]), list("Year"=df$year), mean)
+year_df <- data.frame(year_mag_mean$Year, year_mag_mean$MagMean)
+
+time <- 0
+mag <- 0
+for (index in 1:nrow(year_df)) {
+  time[index] <- year_df[index,1]
+  mag[index] <- year_df[index,2]
+}
+
+data_matrix <- matrix(mag, 
+                      nrow =length(time),
+                      dimnames = list(time, "data"))
+data_ts <- ts(data_matrix, start = 1990)
+ts.plot(data_ts, 
+        main = "Romania Earthquake - Magnitude mean per year",
+        xlab="Year", 
+        ylab="Magnitude mean", 
+        col="#3c4e66",
+        lwd=1)
+acf2(data_ts)
+
+my_model <- arima(data_ts, order=c(1,1,1))
+stdres <- my_model$residuals/sqrt(my_model$sigma2)
+plot(my_model$residuals, main = "Chosen model - ARIMA(1, 1, 1) - Residuals")
+qqnorm(stdres, main = "Chosen model - ARIMA(1, 1, 1) - Normal Q-Q Plot of Std Residuals")
+
+shapiro.test(residuals(my_model))
+
+my_forecast = predict(arima(data_ts ,order=c(1,1,1)), n.ahead=5)
+ts.plot(data_ts, 
+        my_forecast$pred,  
+        main="Romania Earthquake - Magniture mean per year prediction", 
+        col=1:2,
+        xlab="Year", 
+        ylab="Magnitude mean", 
+        lwd=1)
 ```
