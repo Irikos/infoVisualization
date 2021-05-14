@@ -8,7 +8,7 @@ Predicting them with time series is next to impossible, as there are many factor
 
 > Readable notebook: infoVisualisationNotebook.html
 
-> Dataset: eartquakes_Romania.csv
+> Dataset: eartquakes_Romania.csv (https://www.kaggle.com/alexandrudaia/romania-earthquake-historical-data)
 
 # Dataset description
 
@@ -93,12 +93,6 @@ ggplot(data=df) +
 First step consists of inspecting the time series. We need to check if it is stationary and the ACF is decreasing rapidly. We plot the time series.
 
 ![alt text](https://i.imgur.com/xYG4rMl.png)
-
-# Conclusion
-
-Earthquakes in Romania are a major cause of the disaster and sometimes death. It is important to recognize patterns in their behavior as this can help us minimize the caused damage. We did identify some known patterns, such as the 2 important clusters, and analyzed the difference between them (such as, the earthquakes in Vrancea county are deeper, more often and more devastating).
-
-Predicting them with time series is next to impossible, as there are many factors. Either way, if we do look at them, there is a clear seasonality to it. Based on that, we are expecting a major earthquake in the following years.
 
 > Authors:
 
